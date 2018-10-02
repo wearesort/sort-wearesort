@@ -18,3 +18,12 @@ linkedin: Sort
 
 # Build settings
 markdown: kramdown
+
+# Build exclusions
+exclude:
+  - node_modules
+  - semantic/src
+  - semantic/tasks
+  - semantic/gulpfile.js
+  - package-lock.json
+  - semantic.json
