@@ -1,0 +1,20 @@
+# Page settings
+title: We are Sort
+
+# Mail settings
+hello_mail: hello@wearesort.co.uk
+sales_mail: sales@wearesort.co.uk
+
+# Social media settings
+twitter: wearesort
+instagram: wearesort
+facebook: wearesort
+vimeo: wearesort
+pinterest: wearesort
+soundcloud: wearesort
+medium: wearesort
+youtube: wearesort
+linkedin: Sort
+
+# Build settings
+markdown: kramdown
