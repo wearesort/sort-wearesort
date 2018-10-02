@@ -1,39 +1,55 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
-    <title>We are sort</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>We are Sort</title>
     <style>
-    @import url('https://fonts.googleapis.com/css?family=Montserrat:800');
+      @import url('https://fonts.googleapis.com/css?family=Montserrat:regular,black');
 
-    html, body {
-      height: 100%;
-      margin: 0;
-      padding: 0;
-    }
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
 
-    body {
-      font-family: 'Montserrat', sans-serif;
-      text-align: center;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      font-size: 6em;
-    }
-    h1, h2 {
-      margin: 0;
-      line-height: 0.8em;
-    }
-    h1 {
-      font-size: 1.65em;
-    }
-    h2 {
-      font-size: 1em;
-    }
+      body {
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2em;
+      }
+
+      h1 {
+        margin: 0 0 1.2em;
+        font-size: 1.5em;
+      }
+
+      p:last-child {
+        margin-top: 1.5em;
+      }
+
+      a {
+        background-color: black;
+        color: white;
+        padding: 5px 10px;
+        text-decoration: none;
+      }
+
+      @media (min-width: 576px) {
+        body {
+          font-size: 1.8em;
+        }
+      }
     </style>
   </head>
   <body>
-    <h2>we are</h2>
-    <h1>sort</h1>
+    <div>
+      <h1>Sort</h1>
+      <p>A new approach to digital<br />success is coming. Get ready<br />to get <strong>sorted</strong>!</p>
+      <p>Want to know more?<br />Get in touch:</p>
+      <p><a href="mailto:contact@wearesort.co.uk">contact@wearesort.co.uk</a></p>
+    </div>
   </body>
 </html>
