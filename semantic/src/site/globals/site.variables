@@ -1,3 +1,18 @@
 /*******************************
      User Global Variables
 *******************************/
+
+// Fonts
+@headerFont        : Montserrat, sans-serif;
+@pageFont          : 'Work Sans', sans-serif;
+@importGoogleFonts : true;
+@googleProtocol    : 'https://';
+@googleFontRequest : 'Montserrat:extrabold,black|Work+Sans:regular';
+
+// Colours
+@primaryColor   : @orange;
+@secondaryColor : @grey;
+@grey           : #3C3C3B;
+@orange         : #FF8C17;
+@red            : #D60720;
+@yellow         : #F7C216;
