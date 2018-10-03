@@ -15,13 +15,12 @@
   </head>
   <body>
     {% include menu.html %}
-    {% assign lang = page.path | slice: -2, 2 %}
-    {% if lang == "md" %}
+    {% if page.markdown %}
       <div class="ui main text container">
+    {% endif %}
         {{ content }}
+    {% if page.markdown %}
       </div>
-    {% else %}
-      {{ content }}
     {% endif %}
     {% include footer.html %}
   </body>
