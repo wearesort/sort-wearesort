@@ -21,9 +21,9 @@ markdown: kramdown
 
 # Build exclusions
 exclude:
-  - node_modules
-  - semantic/src
-  - semantic/tasks
-  - semantic/gulpfile.js
-  - package-lock.json
-  - semantic.json
+  - assets/node_modules
+  - assets/semantic/src
+  - assets/semantic/tasks
+  - assets/semantic/gulpfile.js
+  - assets/package-lock.json
+  - assets/semantic.json
