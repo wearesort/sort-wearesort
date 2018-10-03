@@ -769,7 +769,7 @@ body {
 }
 
 .ui.menu .item img.logo {
-  margin-right: 1.5em;
+  margin-right: 1.5em !important;
 }
 
 .main.container {
@@ -790,14 +790,16 @@ body {
   padding: 1em 0em;
 }
 
-.home .masthead h1.ui.header {
-  margin-top: 3em;
-  margin-bottom: 0em;
-  font-size: 4em;
-  font-weight: normal;
+.home .masthead .logo {
+  margin-top: 235px;
 }
 
-.home .masthead h2 {
+.home .masthead .logo img {
+  width: 50%;
+  height: 50%;
+}
+
+.home .masthead h1 {
   font-size: 1.7em;
   font-weight: normal;
 }
@@ -806,12 +808,12 @@ body {
   padding: 8em 0em;
 }
 
-.home .ui.vertical.stripe h3 {
+.home .ui.vertical.stripe h2 {
   font-size: 2em;
 }
 
-.home .ui.vertical.stripe .button + h3,
-.home .ui.vertical.stripe p + h3 {
+.home .ui.vertical.stripe .button + h2,
+.home .ui.vertical.stripe p + h2 {
   margin-top: 3em;
 }
 
@@ -841,12 +843,12 @@ body {
     min-height: 350px;
   }
 
-  .home .masthead h1.ui.header {
+  .home .masthead .logo {
     font-size: 2em;
     margin-top: 1.5em;
   }
 
-  .home .masthead h2 {
+  .home .masthead h1 {
     margin-top: 0.5em;
     font-size: 1.5em;
   }

@@ -9,7 +9,7 @@ body {
   background-color: #FFFFFF;
 }
 .ui.menu .item img.logo {
-  margin-right: 1.5em;
+  margin-right: 1.5em !important;
 }
 .main.container {
   margin-top: 7em;
@@ -17,4 +17,65 @@ body {
 .ui.footer.segment {
   margin: 5em 0em 0em;
   padding: 5em 0em;
+}
+
+/*-------------------
+ Home
+---------------------*/
+.home .masthead.segment {
+  min-height: 700px;
+  padding: 1em 0em;
+}
+.home .masthead .logo {
+  margin-top: 235px;
+}
+.home .masthead .logo img {
+  width: 50%;
+  height: 50%;
+}
+.home .masthead h1 {
+  font-size: 1.7em;
+  font-weight: normal;
+}
+
+.home .ui.vertical.stripe {
+  padding: 8em 0em;
+}
+.home .ui.vertical.stripe h2 {
+  font-size: 2em;
+}
+.home .ui.vertical.stripe .button + h2,
+.home .ui.vertical.stripe p + h2 {
+  margin-top: 3em;
+}
+.home .ui.vertical.stripe .floated.image {
+  clear: both;
+}
+.home .ui.vertical.stripe p {
+  font-size: 1.33em;
+}
+.home .ui.vertical.stripe .horizontal.divider {
+  margin: 3em 0em;
+}
+
+.home .quote.stripe.segment {
+  padding: 0em;
+}
+.home .quote.stripe.segment .grid .column {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+@media only screen and (max-width: 700px) {
+  .home .masthead.segment {
+    min-height: 350px;
+  }
+  .home .masthead .logo {
+    font-size: 2em;
+    margin-top: 1.5em;
+  }
+  .home .masthead h1 {
+    margin-top: 0.5em;
+    font-size: 1.5em;
+  }
 }
