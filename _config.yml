@@ -19,6 +19,9 @@ linkedin: Sort
 # Build settings
 markdown: kramdown
 
+# Build inclusions
+include: ["_pages"]
+
 # Build exclusions
 exclude:
   - assets/node_modules
