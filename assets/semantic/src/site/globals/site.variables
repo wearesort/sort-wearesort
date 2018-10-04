@@ -16,6 +16,7 @@
 ---------------------*/
 @primaryColor   : @orange;
 @secondaryColor : @grey;
+@black          : @grey;
 @grey           : #3C3C3B;
 @orange         : #FF8C17;
 @red            : #D60720;

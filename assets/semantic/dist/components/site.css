@@ -230,6 +230,10 @@ body {
   min-height: 700px;
   padding: 1em 0em;
 }
+.home .masthead.splash {
+  background-image: url("/assets/files/images/brand/lego.jpg") !important;
+  background-size: cover !important;
+}
 .home .masthead .logo {
   margin-top: 235px;
 }
