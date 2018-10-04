@@ -765,7 +765,7 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 ---------------------*/
 
 body {
-  background-color: #FFFFFF;
+  ackground-color: #FFFFFF;
 }
 
 .ui.menu .item img.logo {
@@ -774,6 +774,7 @@ body {
 
 .main.container {
   margin-top: 7em;
+  margin-bottom: 4em;
 }
 
 .ui.footer.segment {
@@ -5331,7 +5332,7 @@ body {
 
 .ui.text.container {
   font-family: 'Work Sans', sans-serif;
-  max-width: 700px !important;
+  max-width: 960px !important;
   line-height: 1.5;
 }
 

@@ -2,5 +2,29 @@
 layout: default
 title: Team
 permalink: /team/
-markdown: false
 ---
+<h1>Meet our team</h1>
+<div class="ui three stackable cards">
+{% for profile in site.data.profiles %}
+  <div class="card">
+    <div class="image">
+      <img src="/assets/files/images/avatars/{{ profile.avatar }}">
+    </div>
+    <div class="content">
+      <span class="header">{{ profile.name }}</span>
+      <div class="meta">
+        <span>{{ profile.title }}</span>
+      </div>
+      <div class="description">
+        {{ profile.bio }}
+      </div>
+    </div>
+    <div class="extra content">
+      <span>
+        <i class="wrench icon"></i>
+        {{ profile.skills }}
+      </span>
+    </div>
+  </div>
+{% endfor %}
+</div>

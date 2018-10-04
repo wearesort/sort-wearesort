@@ -1,27 +1,11 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <title>{{ layout.title }}</title>
-    <link rel="stylesheet" type="text/css" href="../assets/semantic/dist/semantic.min.css">
-    <link rel="icon" href="assets/favicon.png" type="image/png">
-    <script
-      src="https://code.jquery.com/jquery-3.1.1.min.js"
-      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-      crossorigin="anonymous"></script>
-    <script src="../assets/semantic/dist/semantic.min.js"></script>
-  </head>
+  {% include head.html %}
   <body>
     {% include menu.html %}
-    {% if page.markdown %}
-      <div class="ui main text container">
-    {% endif %}
-        {{ content }}
-    {% if page.markdown %}
-      </div>
-    {% endif %}
+    <div class="ui main text container">
+      {{ content }}
+    </div>
     {% include footer.html %}
   </body>
 </html>
