@@ -1,0 +1,17 @@
+- avatar: carol.jpg
+  name: Carol Sant’anna
+  title: Service Designer
+  bio: London based, with over 10 years of experience, I specialize in UX and UI design.
+  skills: User experience design, User research, User testing, Creative technology, Visual design
+
+- avatar: johan.jpg
+  name: Johan Gant
+  title: Lead Developer
+  bio: I love simple, clever and effective uses of technology to solve real-world problems.
+  skills: Technical architecture and consulting, Systems integration, Data migration, Drupal development, Performance analysis and engineering
+
+- avatar: john.jpg
+  name: John Durance
+  title: Lead Developer
+  bio: I enjoy building engaging applications, which people can find useful in their daily lives.
+  skills: Content management systems, Data visualisation, Search, JavaScript, PHP
