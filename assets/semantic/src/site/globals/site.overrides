@@ -5,17 +5,13 @@
 /*-------------------
  Menu
 ---------------------*/
-.pushable.segment{
-  margin: 0 !important;
-  border: 0 !important;
-  border-radius: 0 !important;
-}
-.ui.menu {
-  border-radius: 0px !important;
-}
-.ui.menu.secondary {
-  padding: 1.5em;
-  background-color: @secondaryColor !important;
+.ui.top.fixed.menu {
+  .ui.dropdown.item {
+    width: 100%;
+    .menu {
+      border-radius: 0;
+    }
+  }
 }
 
 /*-------------------
