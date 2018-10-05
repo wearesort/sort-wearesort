@@ -782,6 +782,12 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
   margin-bottom: 4em;
 }
 
+@media only screen and (max-width: 767px) {
+  .ui.main.text.container {
+    min-height: 0;
+  }
+}
+
 /*-------------------
  Home
 ---------------------*/
