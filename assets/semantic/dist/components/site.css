@@ -220,7 +220,7 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 
 .ui.main.text.container {
   min-height: 500px;
-  margin-top: 6em;
+  margin-top: 8em;
   margin-bottom: 4em;
 }
 @media only screen and (max-width: 767px) {

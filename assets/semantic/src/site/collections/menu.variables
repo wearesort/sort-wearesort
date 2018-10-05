@@ -18,3 +18,8 @@
 
 @invertedDropdownSelectedItemBackground: @strongTransparentWhite;
 @invertedDropdownSelectedItemColor: @invertedDropdownItemColor;
+
+/*-------------------
+  Item padding
+--------------------*/
+@itemVerticalPadding: 2em;
