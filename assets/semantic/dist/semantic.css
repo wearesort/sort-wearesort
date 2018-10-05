@@ -761,25 +761,22 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 *******************************/
 
 /*-------------------
- Page
+ Menu
 ---------------------*/
 
-body {
-  ackground-color: #FFFFFF;
+.pushable.segment {
+  margin: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
 }
 
-.ui.menu .item img.logo {
-  margin-right: 1.5em !important;
+.ui.menu {
+  border-radius: 0px !important;
 }
 
-.main.container {
-  margin-top: 7em;
-  margin-bottom: 4em;
-}
-
-.ui.footer.segment {
-  margin: 5em 0em 0em;
-  padding: 5em 0em;
+.ui.menu.secondary {
+  padding: 1.5em;
+  background-color: #3C3C3B !important;
 }
 
 /*-------------------
@@ -791,35 +788,48 @@ body {
   padding: 1em 0em;
 }
 
-.home .masthead.splash {
-  background-image: url("/assets/files/images/brand/lego.jpg") !important;
-  background-size: cover !important;
+.home .masthead .logo.item img {
+  margin-right: 1em;
 }
 
-.home .masthead .logo {
-  margin-top: 235px;
+.home .masthead h1.ui.header {
+  margin-top: 3em;
+  margin-bottom: 0em;
+  font-size: 4em;
+  font-weight: normal;
 }
 
-.home .masthead .logo img {
-  width: 50%;
-  height: 50%;
-}
-
-.home .masthead h1 {
+.home .masthead h2 {
   font-size: 1.7em;
   font-weight: normal;
+}
+
+@media only screen and (max-width: 700px) {
+  .home .masthead.segment {
+    min-height: 350px;
+  }
+
+  .home .masthead h1.ui.header {
+    font-size: 2em;
+    margin-top: 1.5em;
+  }
+
+  .home .masthead h2 {
+    margin-top: 0.5em;
+    font-size: 1.5em;
+  }
 }
 
 .home .ui.vertical.stripe {
   padding: 8em 0em;
 }
 
-.home .ui.vertical.stripe h2 {
+.home .ui.vertical.stripe h3 {
   font-size: 2em;
 }
 
-.home .ui.vertical.stripe .button + h2,
-.home .ui.vertical.stripe p + h2 {
+.home .ui.vertical.stripe .button + h3,
+.home .ui.vertical.stripe p + h3 {
   margin-top: 3em;
 }
 
@@ -844,20 +854,12 @@ body {
   padding-bottom: 5em;
 }
 
-@media only screen and (max-width: 700px) {
-  .home .masthead.segment {
-    min-height: 350px;
-  }
+/*-------------------
+ Footer
+---------------------*/
 
-  .home .masthead .logo {
-    font-size: 2em;
-    margin-top: 1.5em;
-  }
-
-  .home .masthead h1 {
-    margin-top: 0.5em;
-    font-size: 1.5em;
-  }
+.footer.segment {
+  padding: 5em 0em !important;
 }
 /*!
  * # Semantic UI 2.4.0 - Button
