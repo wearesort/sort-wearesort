@@ -5,8 +5,8 @@
 /*-------------------
       Base Sizes
 --------------------*/
-@emSize   : 18px;
-@fontSize : 18px;
+@emSize   : 16px;
+@fontSize : 16px;
 
 /*-------------------
  Fonts
