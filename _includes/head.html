@@ -10,4 +10,11 @@
     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
     crossorigin="anonymous"></script>
   <script src="../assets/semantic/dist/semantic.min.js"></script>
+  <script>
+    $(function() {
+      var path = window.location.pathname.replace(/\/$/, "");
+      path = path == "" ? "/" : path;
+      $(".ui a[href='" + path + "'].item").addClass("active");
+    });
+  </script>
 </head>

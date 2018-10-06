@@ -213,6 +213,9 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 .ui.top.fixed.menu .ui.dropdown.item .menu {
   border-radius: 0;
 }
+.computer.only .ui.top.fixed.menu .active.item {
+  background: #3C3C3B;
+}
 
 /*-------------------
  Main

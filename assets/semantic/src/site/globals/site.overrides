@@ -13,6 +13,13 @@
     }
   }
 }
+.computer.only {
+  .ui.top.fixed.menu {
+    .active.item  {
+      background: @secondaryColor;
+    }
+  }
+}
 
 /*-------------------
  Main
