@@ -812,14 +812,27 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
   padding-bottom: 4em !important;
 }
 
-.home .main .ui.ten.cards {
+.home .main .ui.cards {
   margin-bottom: 1em !important;
   margin-top: 1em !important;
 }
 
-.home .main .ui.ten.cards > .card {
+.home .main .ui.cards > .card {
   margin-top: .5em !important;
   margin-bottom: .5em !important;
+  border-radius: 50% !important;
+}
+
+.home .main .ui.cards > .card :first-child {
+  border-radius: 50% !important;
+}
+
+.home .main .ui.cards > .card :last-child {
+  border-radius: 50% !important;
+}
+
+.home .main .ui.cards > .card :only-child {
+  border-radius: 50% !important;
 }
 
 @media only screen and (min-width: 767px) {
@@ -29285,11 +29298,6 @@ a.ui.card:hover,
 /*******************************
     User Variable Overrides
 *******************************/
-
-.ui.cards > .card > .content,
-.ui.card > .content {
-  font-size: .8em;
-}
 /*!
  * # Semantic UI 2.4.0 - Comment
  * http://github.com/semantic-org/semantic-ui/

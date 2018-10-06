@@ -251,13 +251,23 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
   padding-top: 4em !important;
   padding-bottom: 4em !important;
 }
-.home .main .ui.ten.cards {
+.home .main .ui.cards {
   margin-bottom: 1em !important;
   margin-top: 1em !important;
 }
-.home .main .ui.ten.cards > .card {
+.home .main .ui.cards > .card {
   margin-top: .5em !important;
   margin-bottom: .5em !important;
+  border-radius: 50% !important;
+}
+.home .main .ui.cards > .card :first-child {
+  border-radius: 50% !important;
+}
+.home .main .ui.cards > .card :last-child {
+  border-radius: 50% !important;
+}
+.home .main .ui.cards > .card :only-child {
+  border-radius: 50% !important;
 }
 @media only screen and (min-width: 767px) {
   .home .main .masthead img {

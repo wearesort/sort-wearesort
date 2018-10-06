@@ -52,12 +52,22 @@
       padding-top: 4em !important;
       padding-bottom: 4em !important;
     }
-    .ui.ten.cards {
+    .ui.cards {
       margin-bottom: 1em !important;
       margin-top: 1em !important;
       > .card {
         margin-top: .5em !important;
         margin-bottom: .5em !important;
+        border-radius: 50% !important;
+        :first-child {
+          border-radius: 50% !important;
+        }
+        :last-child {
+          border-radius: 50% !important;
+        }
+        :only-child {
+          border-radius: 50% !important;
+        }
       }
     }
     @media only screen and (min-width: @largestMobileScreen) {
