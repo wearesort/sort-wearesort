@@ -24,6 +24,7 @@ include: ["_pages"]
 
 # Build exclusions
 exclude:
+  - README.md
   - assets/node_modules
   - assets/semantic/src
   - assets/semantic/tasks
