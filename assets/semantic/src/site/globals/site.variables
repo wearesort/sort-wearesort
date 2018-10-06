@@ -3,6 +3,12 @@
 *******************************/
 
 /*-------------------
+      Base Sizes
+--------------------*/
+@emSize   : 18px;
+@fontSize : 18px;
+
+/*-------------------
  Fonts
 ---------------------*/
 @headerFont        : Montserrat, sans-serif;
@@ -12,12 +18,18 @@
 @googleFontRequest : 'Montserrat:extrabold,black|Work+Sans:regular';
 
 /*-------------------
+    Border Radius
+--------------------*/
+@relativeBorderRadius: @relative10px;
+@absoluteBorderRadius: @10px;
+
+/*-------------------
  Colours
 ---------------------*/
-@primaryColor   : @orange;
+@primaryColor   : @yellow;
 @secondaryColor : @grey;
-@black          : @grey;
 @grey           : #3C3C3B;
 @orange         : #FF8C17;
 @red            : #D60720;
 @yellow         : #F7C216;
+@black          : @grey;

@@ -24,80 +24,53 @@
 /*-------------------
  Main
 ---------------------*/
-.ui.main.text.container {
-  min-height: 500px;
-  margin-top: 8em;
-  margin-bottom: 4em;
+.main.container {
+  margin-top: 5em;
+  margin-bottom: 2em;
+  @media only screen and (min-width: @largestMobileScreen) {
+    min-height: 500px;
+    margin-top: 7em;
+    margin-bottom: 4em;
+  }
 }
-@media only screen and (max-width: @largestMobileScreen) {
-  .ui.main.text.container {
-    min-height: 0;
+
+/*-------------------
+ Footer
+---------------------*/
+@media only screen and (min-width: @largestMobileScreen) {
+  .footer.segment {
+    padding: 4em 0em !important;
   }
 }
 
 /*-------------------
  Home
 ---------------------*/
-.home .masthead.segment {
-  min-height: 700px;
-  padding: 1em 0em;
-}
-.home .masthead .logo.item img {
-  margin-right: 1em;
-}
-.home .masthead h1.ui.header {
-  margin-top: 3em;
-  margin-bottom: 0em;
-  font-size: 4em;
-  font-weight: normal;
-}
-.home .masthead h2 {
-  font-size: 1.7em;
-  font-weight: normal;
-}
-@media only screen and (max-width: 700px) {
-  .home .masthead.segment {
-    min-height: 350px;
+.home {
+  .main {
+    .segment {
+      padding-top: 4em !important;
+      padding-bottom: 4em !important;
+    }
+    .ui.ten.cards {
+      margin-bottom: 1em !important;
+      margin-top: 1em !important;
+      > .card {
+        margin-top: .5em !important;
+        margin-bottom: .5em !important;
+      }
+    }
+    @media only screen and (min-width: @largestMobileScreen) {
+      .masthead {
+        img {
+          width: 33%;
+          height: 33%;
+        }
+        .ui.header {
+          margin-top: 3rem !important;
+          margin-bottom: 3rem !important;
+        }
+      }
+    }
   }
-  .home .masthead h1.ui.header {
-    font-size: 2em;
-    margin-top: 1.5em;
-  }
-  .home .masthead h2 {
-    margin-top: 0.5em;
-    font-size: 1.5em;
-  }
-}
-.home .ui.vertical.stripe {
-  padding: 8em 0em;
-}
-.home .ui.vertical.stripe h3 {
-  font-size: 2em;
-}
-.home .ui.vertical.stripe .button + h3,
-.home .ui.vertical.stripe p + h3 {
-  margin-top: 3em;
-}
-.home .ui.vertical.stripe .floated.image {
-  clear: both;
-}
-.home .ui.vertical.stripe p {
-  font-size: 1.33em;
-}
-.home .ui.vertical.stripe .horizontal.divider {
-  margin: 3em 0em;
-}
-.home .quote.stripe.segment {
-  padding: 0em;
-}
-.home .quote.stripe.segment .grid .column {
-  padding-top: 5em;
-  padding-bottom: 5em;
-}
-
-/*-------------------
- Footer
----------------------*/
-.footer.segment {
-  padding: 5em 0em !important;
 }

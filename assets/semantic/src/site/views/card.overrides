@@ -1,3 +1,8 @@
 /*******************************
     User Variable Overrides
 *******************************/
+
+.ui.cards > .card > .content,
+.ui.card > .content {
+  font-size: .8em;
+}
