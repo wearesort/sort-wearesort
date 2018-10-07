@@ -4,5 +4,5 @@ _site
 .DS_Store
 .idea
 node_modules
-assets/files
+assets/files/images/avatars
 _data/profiles.yml
