@@ -70,6 +70,44 @@
         }
       }
     }
+    .ui.relaxed.horizontal.clients.list {
+      > .item {
+        img {
+          height: 80px;
+        }
+      }
+    }
+    @media only screen and (max-width: @largestMobileScreen) {
+      .ui.relaxed.horizontal.clients.list {
+        > .item {
+          display: block !important;
+          padding-top: .7em;
+          padding-bottom: .7em;
+          img {
+            width: 150px;
+            height: auto;
+          }
+        }
+      }
+      .ui.horizontal.relaxed.list {
+        > .item:first-child {
+          padding-top: 0;
+        }
+        > .item:not(:first-child) {
+          margin: 0;
+          padding-left: 0;
+        }
+      }
+      .ui.horizontal.relaxed.list {
+        > .item:last-child {
+          padding-bottom: 0;
+        }
+        > .item:not(:last-child) {
+          margin: 0;
+          padding-right: 0;
+        }
+      }
+    }
     @media only screen and (min-width: @largestMobileScreen) {
       .masthead {
         img {

@@ -835,6 +835,41 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
   border-radius: 50% !important;
 }
 
+.home .main .ui.relaxed.horizontal.clients.list > .item img {
+  height: 80px;
+}
+
+@media only screen and (max-width: 767px) {
+  .home .main .ui.relaxed.horizontal.clients.list > .item {
+    display: block !important;
+    padding-top: .7em;
+    padding-bottom: .7em;
+  }
+
+  .home .main .ui.relaxed.horizontal.clients.list > .item img {
+    width: 150px;
+    height: auto;
+  }
+
+  .home .main .ui.horizontal.relaxed.list > .item:first-child {
+    padding-top: 0;
+  }
+
+  .home .main .ui.horizontal.relaxed.list > .item:not(:first-child) {
+    margin: 0;
+    padding-left: 0;
+  }
+
+  .home .main .ui.horizontal.relaxed.list > .item:last-child {
+    padding-bottom: 0;
+  }
+
+  .home .main .ui.horizontal.relaxed.list > .item:not(:last-child) {
+    margin: 0;
+    padding-right: 0;
+  }
+}
+
 @media only screen and (min-width: 767px) {
   .home .main .masthead img {
     width: 33%;
