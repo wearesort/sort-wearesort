@@ -5,3 +5,4 @@ _site
 .idea
 node_modules
 assets/files
+_data/profiles.yml
