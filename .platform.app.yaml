@@ -1,0 +1,20 @@
+name: app
+type: ruby:2.5
+disk: 1024
+web:
+  locations:
+    "/":
+      root: "_site"
+      index:
+        - index.html
+      passthru: false
+dependencies:
+  ruby:
+    jekyll: "3.8.4"
+  nodejs:
+    gulp-cli: "2.0.1"
+hooks:
+  build: |
+    jekyll build
+    cd semantic/
+    gulp build
