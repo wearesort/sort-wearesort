@@ -12,10 +12,3 @@ This site's front-end is built with Semantic UI, which uses Gulp. If you don't a
 $ cd assets/semantic
 $ gulp build
 ```
-
-##Personal data
-Personal data, including profiles and avatar images are not stored in this repository.
-
-They are stored on the team drive. Download these files and folders from [here](https://drive.google.com/drive/u/0/folders/1REpXD_vqHhhFkcKbs5fwDbt7u9BJYnar), to these locations on the site:
-- __data/profiles.yml_
-- _assets/files/images/avatars_
