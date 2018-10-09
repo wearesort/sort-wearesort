@@ -6,14 +6,18 @@ permalink: /
 <html lang="en">
   {% include head.html %}
   <body class="home">
-    {% include menu.html %}
-    <div class="ui main container">
-      {% include masthead.html %}
-      {% include press-release-teaser.html %}
-      {% include team-teaser.html %}
-      {% include contact-teaser.html %}
-      {% include clients.html %}
+    {% include main-menu.html %}
+    {% include sidebar-menu.html %}
+    <div class="pusher">
+      {% include secondary-menu.html %}
+      <div class="ui main container">
+        {% include masthead.html %}
+        {% include press-release-teaser.html %}
+        {% include team-teaser.html %}
+        {% include contact-teaser.html %}
+        {% include clients.html %}
+      </div>
+      {% include footer.html %}
     </div>
-    {% include footer.html %}
   </body>
 </html>

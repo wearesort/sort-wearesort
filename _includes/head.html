@@ -12,6 +12,14 @@
   <script src="/assets/semantic/dist/semantic.min.js"></script>
   <script>
     $(function() {
+      $(".main.menu").visibility({
+        type: "fixed"
+      });
+      $(".ui.sidebar").sidebar("attach events", ".toc.item");
+    });
+  </script>
+  <script>
+    $(function() {
       var path = window.location.pathname.replace(/\/$/, "");
       path = path == "" ? "/" : path;
       $(".ui a[href='" + path + "'].item").addClass("active");

@@ -2,10 +2,14 @@
 <html lang="en">
   {% include head.html %}
   <body>
-    {% include menu.html %}
-    <div class="ui main text container">
-      {{ content }}
+    {% include main-menu.html %}
+    {% include sidebar-menu.html %}
+    <div class="pusher">
+      {% include secondary-menu.html %}
+      <div class="ui main text container">
+        {{ content }}
+      </div>
+      {% include footer.html %}
     </div>
-    {% include footer.html %}
   </body>
 </html>

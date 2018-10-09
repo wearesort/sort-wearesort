@@ -5,19 +5,30 @@
 /*-------------------
  Menu
 ---------------------*/
-.ui.top.fixed.menu {
-  .ui.dropdown.item {
-    width: 100%;
-    .menu {
-      border-radius: 0;
-    }
+.ui.main.menu {
+  margin: 0;
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+}
+.secondary.menu {
+  display: none !important;
+}
+.ui.secondary.menu {
+  .toc.item {
+    padding: 2em 1.125em;
   }
 }
-.computer.only {
-  .ui.top.fixed.menu {
-    .active.item  {
-      background: @secondaryColor;
-    }
+@media only screen and (max-width: @largestMobileScreen) {
+  .ui.main.menu {
+    display: none !important;
+  }
+  .main.menu .item,
+  .main.menu .menu {
+    display: none;
+  }
+  .secondary.menu {
+    display: block !important;
   }
 }
 
@@ -26,11 +37,9 @@
 ---------------------*/
 .main.container {
   margin-top: 5em;
-  margin-bottom: 2em;
+  margin-bottom: 5em;
   @media only screen and (min-width: @largestMobileScreen) {
     min-height: 500px;
-    margin-top: 7em;
-    margin-bottom: 4em;
   }
 }
 
