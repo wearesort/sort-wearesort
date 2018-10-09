@@ -1,5 +1,5 @@
 _data/profiles.yml
-_site
+/_site
 assets/files/images/avatars
 assets/semantic/dist
 assets/semantic/node_modules
