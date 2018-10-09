@@ -10,7 +10,8 @@ web:
       passthru: false
 hooks:
   build: |
-    gem install jekyll bundler
-    jekyll build
     cd assets/semantic/
     npm install
+    cd ../../
+    gem install jekyll bundler
+    jekyll build
