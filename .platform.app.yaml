@@ -8,13 +8,8 @@ web:
       index:
         - index.html
       passthru: false
-dependencies:
-  ruby:
-    jekyll: "3.8.4"
-  nodejs:
-    gulp-cli: "2.0.1"
 hooks:
   build: |
     jekyll build
-    cd semantic/
-    gulp build
+    cd assets/semantic/
+    npm install
