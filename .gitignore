@@ -1,6 +1,4 @@
-_data/profiles.yml
 /_site
-assets/files/images/avatars
 assets/semantic/dist
 assets/semantic/node_modules
 .DS_Store
