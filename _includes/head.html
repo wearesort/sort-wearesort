@@ -25,4 +25,11 @@
       $(".ui a[href='" + path + "'].item").addClass("active");
     });
   </script>
+  <script>
+    $(function() {
+      $(".cookie.nag").nag({
+        storageMethod: "localstorage"
+      });
+    });
+  </script>
 </head>

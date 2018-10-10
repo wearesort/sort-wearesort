@@ -1,3 +1,8 @@
 /*******************************
     User Variable Overrides
 *******************************/
+
+@background: @tealBackground;
+@titleColor: @teal;
+@closeColor: @teal;
+@borderRadius: 0;

@@ -44,6 +44,15 @@
 }
 
 /*-------------------
+ Cookie compliance
+---------------------*/
+.ui.nag {
+  > .title {
+    max-width: 960px;
+  }
+}
+
+/*-------------------
  Footer
 ---------------------*/
 @media only screen and (min-width: @largestMobileScreen) {
