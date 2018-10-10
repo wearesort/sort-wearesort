@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About us
-permalink: /about/
+permalink: /about-us/
 ---
 About us
 ========
