@@ -47,8 +47,16 @@
  Cookie compliance
 ---------------------*/
 .ui.nag {
-  > .title {
-    max-width: 960px;
+  color: @teal !important;
+  > .container {
+    display: flex;
+    align-items: center;
+    i.icon {
+      margin-left: 1em;
+    }
+  }
+  @media only screen and (max-width: @largestMobileScreen) {
+    top: 5em !important;
   }
 }
 

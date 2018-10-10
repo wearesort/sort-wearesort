@@ -3,6 +3,8 @@
 *******************************/
 
 @background: @tealBackground;
+@boxShadow: none;
+@textAlign: left;
 @titleColor: @teal;
 @closeColor: @teal;
 @borderRadius: 0;
