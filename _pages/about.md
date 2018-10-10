@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  us
+title: About us
 permalink: /about/
 ---
 About Us
