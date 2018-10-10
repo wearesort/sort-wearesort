@@ -33,3 +33,4 @@
 @red            : #D60720;
 @yellow         : #F7C216;
 @black          : @grey;
+@iron           : #808080;
