@@ -10,6 +10,23 @@
     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
     crossorigin="anonymous"></script>
   <script src="/assets/semantic/dist/semantic.min.js"></script>
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(), event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-MBMF8TD');
+  </script>
+  <!-- End Google Tag Manager -->
+  <!-- Responsive menu -->
   <script>
     $(function() {
       $(".main.menu").visibility({
@@ -18,6 +35,8 @@
       $(".ui.sidebar").sidebar("attach events", ".toc.item");
     });
   </script>
+  <!-- End responsive menu -->
+  <!-- Active menu item -->
   <script>
     $(function() {
       var path = window.location.pathname.replace(/\/$/, "");
@@ -25,6 +44,8 @@
       $(".ui a[href='" + path + "'].item").addClass("active");
     });
   </script>
+  <!-- End active menu item -->
+  <!-- Cookie compliance -->
   <script>
     $(function() {
       $(".cookie.nag").nag({
@@ -32,4 +53,5 @@
       });
     });
   </script>
+  <!-- End cookie compliance -->
 </head>
