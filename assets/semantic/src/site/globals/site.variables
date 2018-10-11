@@ -12,10 +12,10 @@
  Fonts
 ---------------------*/
 @headerFont        : Montserrat, sans-serif;
-@pageFont          : 'Work Sans', sans-serif;
+@pageFont          : 'Open Sans', sans-serif;
 @importGoogleFonts : true;
 @googleProtocol    : 'https://';
-@googleFontRequest : 'Montserrat:extrabold,black|Work+Sans:regular';
+@googleFontRequest : 'Montserrat:extrabold,black|Open+Sans:regular,bold,regularitalic';
 
 /*-------------------
     Border Radius
