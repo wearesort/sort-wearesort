@@ -38,6 +38,16 @@
 .main.container {
   margin-top: 4em;
   margin-bottom: 4em;
+  .ui.vertical.center.aligned.segment {
+    padding-top: 4em !important;
+    padding-bottom: 4em !important;
+    &:first-child {
+      padding-top: 0 !important;
+    }
+    &:last-child {
+      padding-bottom: 0 !important;
+    }
+  }
   @media only screen and (min-width: @largestMobileScreen) {
     min-height: 500px;
   }
@@ -63,6 +73,54 @@
 }
 
 /*-------------------
+ Clients
+---------------------*/
+.ui.horizontal.clients.list {
+  > .our.item {
+    img {
+      height: 80px;
+    }
+  }
+  > .team.item {
+    img {
+      height: 35px;
+    }
+  }
+}
+@media only screen and (max-width: @largestMobileScreen) {
+  .ui.horizontal.clients.list {
+    > .our.item,
+    > .team.item {
+      display: block !important;
+      padding-top: .7em;
+      padding-bottom: .7em;
+      img {
+        width: 150px;
+        height: auto;
+      }
+    }
+  }
+  .ui.horizontal.clients.list {
+    > .item:first-child {
+      padding-top: 0;
+    }
+    > .item:not(:first-child) {
+      margin: 0;
+      padding-left: 0;
+    }
+  }
+  .ui.horizontal.clients.list {
+    > .item:last-child {
+      padding-bottom: 0;
+    }
+    > .item:not(:last-child) {
+      margin: 0;
+      padding-right: 0;
+    }
+  }
+}
+
+/*-------------------
  Footer
 ---------------------*/
 @media only screen and (min-width: @largestMobileScreen) {
@@ -76,16 +134,6 @@
 ---------------------*/
 .home {
   .main {
-    .segment {
-      padding-top: 4em !important;
-      padding-bottom: 4em !important;
-      &:first-child {
-        padding-top: 0 !important;
-      }
-      &:last-child {
-        padding-bottom: 0 !important;
-      }
-    }
     .ui.cards {
       margin-bottom: 1em !important;
       margin-top: 1em !important;
@@ -101,44 +149,6 @@
         }
         :only-child {
           border-radius: 50% !important;
-        }
-      }
-    }
-    .ui.relaxed.horizontal.clients.list {
-      > .item {
-        img {
-          height: 80px;
-        }
-      }
-    }
-    @media only screen and (max-width: @largestMobileScreen) {
-      .ui.relaxed.horizontal.clients.list {
-        > .item {
-          display: block !important;
-          padding-top: .7em;
-          padding-bottom: .7em;
-          img {
-            width: 150px;
-            height: auto;
-          }
-        }
-      }
-      .ui.horizontal.relaxed.list {
-        > .item:first-child {
-          padding-top: 0;
-        }
-        > .item:not(:first-child) {
-          margin: 0;
-          padding-left: 0;
-        }
-      }
-      .ui.horizontal.relaxed.list {
-        > .item:last-child {
-          padding-bottom: 0;
-        }
-        > .item:not(:last-child) {
-          margin: 0;
-          padding-right: 0;
         }
       }
     }

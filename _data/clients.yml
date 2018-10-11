@@ -1,11 +1,14 @@
 - name: Food Standards Agency
   logo: fsa.svg
   url: https://www.food.gov.uk/
+  ours: true
 
 - name: ITV
   logo: itv.svg
   url: https://www.itv.com/
+  ours: false
 
 - name: Chatham House
   logo: ch.svg
   url: https://www.chathamhouse.org/
+  ours: false

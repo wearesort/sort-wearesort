@@ -1,10 +1,9 @@
 <div class="ui vertical center aligned segment">
   <div class="ui text container">
-    <h2 class="ui header">Companies we've worked with</h2>
-    <p>Our team has a wealth of experience in both public, private, and NGO sectors.</p>
-    <div class="ui relaxed horizontal clients list">
+    <h2 class="ui header">Companies our team members have worked with</h2>
+    <div class="ui horizontal clients list">
       {% for client in site.data.clients %}
-        <div class="item">
+        <div class="team item">
           <a href="{{ client.url }}">
             <img src="/assets/files/images/logos/{{ client.logo }}" alt="{{ client.name }}" target="_blank">
           </a>
