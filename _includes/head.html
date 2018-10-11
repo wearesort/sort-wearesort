@@ -40,7 +40,7 @@
   <script>
     $(function() {
       var path = window.location.pathname.replace(/\/$/, "");
-      path = path == "" ? "/" : path;
+      path = path == "" ? "/" : path + "/";
       $(".ui a[href='" + path + "'].item").addClass("active");
     });
   </script>
