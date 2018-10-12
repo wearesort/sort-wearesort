@@ -137,6 +137,22 @@
 ---------------------*/
 .home {
   .main {
+    .masthead {
+      img {
+        width: 75%;
+        height: 75%;
+      }
+      @media only screen and (min-width: @largestMobileScreen) {
+        img {
+          width: 25%;
+          height: 25%;
+        }
+        .ui.header {
+          margin-top: 3rem !important;
+          margin-bottom: 3rem !important;
+        }
+      }
+    }
     .ui.cards {
       margin-bottom: 1em !important;
       margin-top: 1em !important;
@@ -163,18 +179,6 @@
     .ui.ten.cards {
       @media only screen and (max-width: @largestMobileScreen) {
         display: none;
-      }
-    }
-    @media only screen and (min-width: @largestMobileScreen) {
-      .masthead {
-        img {
-          width: 33%;
-          height: 33%;
-        }
-        .ui.header {
-          margin-top: 3rem !important;
-          margin-bottom: 3rem !important;
-        }
       }
     }
   }
