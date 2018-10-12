@@ -20,8 +20,8 @@
 /*-------------------
  Border Radius
 --------------------*/
-@relativeBorderRadius : @relative10px;
-@absoluteBorderRadius : @10px;
+@relativeBorderRadius : @relative7px;
+@absoluteBorderRadius : @7px;
 
 /*-------------------
  Colours
