@@ -138,9 +138,9 @@
 .home {
   .main {
     .masthead {
-      img {
-        width: 75%;
-        height: 75%;
+      h1 {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
       }
       @media only screen and (min-width: @largestMobileScreen) {
         img {
@@ -150,6 +150,19 @@
         .ui.header {
           margin-top: 3rem !important;
           margin-bottom: 3rem !important;
+        }
+      }
+      @media only screen and (max-width: @largestMobileScreen) {
+        h1 {
+          font-size: 1.4rem;
+        }
+        img {
+          width: 75%;
+          height: 75%;
+        }
+        .ui.header {
+          margin-top: 2rem !important;
+          margin-bottom: 2rem !important;
         }
       }
     }
