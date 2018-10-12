@@ -4,8 +4,8 @@
     <div class="ui horizontal clients list">
       {% for client in site.data.clients %}
         <div class="team item">
-          <a href="{{ client.url }}">
-            <img src="/assets/files/images/logos/{{ client.logo }}" alt="{{ client.name }}" target="_blank">
+          <a href="{{ client.url }}" target="_blank">
+            <img src="/assets/files/images/logos/{{ client.logo }}" alt="{{ client.name }}">
           </a>
         </div>
       {% endfor %}
