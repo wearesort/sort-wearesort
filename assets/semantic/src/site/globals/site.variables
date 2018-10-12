@@ -20,8 +20,8 @@
 /*-------------------
  Border Radius
 --------------------*/
-@relativeBorderRadius: @relative10px;
-@absoluteBorderRadius: @10px;
+@relativeBorderRadius : @relative10px;
+@absoluteBorderRadius : @10px;
 
 /*-------------------
  Colours
@@ -39,3 +39,4 @@
  Page
 --------------------*/
 @lineHeight : 1.6em;
+@textColor  : @grey;
