@@ -1,6 +1,15 @@
 <div class="ui vertical center aligned segment">
   <h2 class="ui header">Our team has all sorts of talent and experience</h2>
-  <div class="ui ten doubling cards">
+  <div class="ui ten cards">
+    {% for profile in site.data.profiles %}
+    <div class="card">
+      <div class="image">
+        <img src="/assets/files/images/avatars/{{ profile.avatar }}" alt="{{ profile.name }}">
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="ui five cards">
     {% for profile in site.data.profiles %}
     <div class="card">
       <div class="image">

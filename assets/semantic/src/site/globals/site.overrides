@@ -155,6 +155,16 @@
         }
       }
     }
+    .ui.five.cards {
+      @media only screen and (min-width: @largestMobileScreen) {
+        display: none;
+      }
+    }
+    .ui.ten.cards {
+      @media only screen and (max-width: @largestMobileScreen) {
+        display: none;
+      }
+    }
     @media only screen and (min-width: @largestMobileScreen) {
       .masthead {
         img {
