@@ -3,7 +3,7 @@
 *******************************/
 
 /*-------------------
-      Base Sizes
+ Base Sizes
 --------------------*/
 @emSize   : 16px;
 @fontSize : 16px;
@@ -18,7 +18,7 @@
 @googleFontRequest : 'Montserrat:extrabold,black|Open+Sans:regular,bold,regularitalic';
 
 /*-------------------
-    Border Radius
+ Border Radius
 --------------------*/
 @relativeBorderRadius: @relative10px;
 @absoluteBorderRadius: @10px;
@@ -34,3 +34,8 @@
 @yellow         : #F7C216;
 @black          : @grey;
 @iron           : #808080;
+
+/*-------------------
+ Page
+--------------------*/
+@lineHeight : 1.6em;
