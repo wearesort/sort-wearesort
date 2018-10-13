@@ -200,8 +200,13 @@
 /*-------------------
  Sort code
 ---------------------*/
-.not {
-  color: @iron;
+.sort-code {
+  .not {
+    color: @iron;
+  }
+  i.icon {
+    min-width: 23px;
+  }
 }
 
 /*-------------------
