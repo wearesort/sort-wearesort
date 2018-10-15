@@ -3,23 +3,21 @@
 *******************************/
 
 /*-------------------
-  Inverted dropdowns
---------------------*/
-@invertedDropdownBackground: @black;
-@invertedDropdownMenuBoxShadow: none;
-
-@invertedDropdownItemColor: @invertedMutedTextColor;
-
-@invertedDropdownHoveredItemBackground: @transparentWhite;
-@invertedDropdownHoveredItemColor: @invertedDropdownItemColor;
-
-@invertedDropdownActiveItemBackground: transparent;
-@invertedDropdownActiveItemColor: @invertedDropdownItemColor;
-
-@invertedDropdownSelectedItemBackground: @strongTransparentWhite;
-@invertedDropdownSelectedItemColor: @invertedDropdownItemColor;
-
-/*-------------------
   Item padding
 --------------------*/
+
 @itemVerticalPadding: 2em;
+
+/*--------------
+     States
+---------------*/
+
+@hoverItemBackground: @subtleTransparentYellow;
+
+@pressedItemBackground: @subtleTransparentYellow;
+
+@activeItemBackground: @transparentYellow;
+@activeHoverItemBackground: @transparentYellow;
+
+@dropdownSelectedItemBackground: @transparentYellow;
+@dropdownActiveItemBackground: @subtleTransparentYellow;
