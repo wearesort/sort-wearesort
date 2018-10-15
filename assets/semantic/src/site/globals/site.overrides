@@ -218,3 +218,23 @@
     font-size: .9em !important;
   }
 }
+
+/*-------------------
+ Teaser cards
+---------------------*/
+.ui.teaser.cards {
+  @media only screen and (min-width: @largestMobileScreen) {
+    margin-top: 4em !important;
+  }
+  @media only screen and (max-width: @largestMobileScreen) {
+    margin-top: 1em !important;
+  }
+  > .card {
+    > .content {
+      padding: 2em !important;
+    }
+    .button {
+      padding: 2em;
+    }
+  }
+}
