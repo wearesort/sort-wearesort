@@ -1,3 +1,5 @@
 /*******************************
     User Variable Overrides
 *******************************/
+
+@shadowBoxShadow : 0px @shadowDistance 0 0px @solidBorderColor;
