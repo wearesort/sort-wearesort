@@ -40,3 +40,8 @@
 --------------------*/
 @lineHeight : 1.6em;
 @textColor  : @grey;
+
+/*-------------------
+ Highlighted Text
+--------------------*/
+@highlightBackground : #FEF2CB;
