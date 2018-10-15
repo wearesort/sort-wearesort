@@ -9,6 +9,7 @@
   margin: 0;
   border-radius: 0;
   border: none;
+  border-bottom: 1px solid @borderColor;
   box-shadow: none;
 }
 .secondary.menu {
