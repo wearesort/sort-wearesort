@@ -3,3 +3,4 @@
 *******************************/
 
 @primaryTextColor : @grey;
+@iconOpacity: 1;
