@@ -23,16 +23,3 @@
   Item padding
 --------------------*/
 @itemVerticalPadding: 2em;
-
-/*--------------
-     States
----------------*/
-@hoverItemBackground: @subtleTransparentYellow;
-
-@pressedItemBackground: @subtleTransparentYellow;
-
-@activeItemBackground: @transparentYellow;
-@activeHoverItemBackground: @transparentYellow;
-
-@dropdownSelectedItemBackground: @transparentYellow;
-@dropdownActiveItemBackground: @subtleTransparentYellow;
