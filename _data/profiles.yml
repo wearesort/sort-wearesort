@@ -1,14 +1,14 @@
 - avatar: andrew.jpg
   name: Andrew Larcombe
-  title: Technical Consultant
-  bio: TBC
-  skills: TBC • TBC • TBC • TBC • TBC
+  title: Consultant
+  bio: Advocating value-lead approaches. Technical & strategic problem solver. Mountain-biking tinkerer.
+  skills: Delivering positive outcomes, Agile consulting & training, Complex problem solving, Infrastructure auditing & consulting, Technical development
 
 - avatar: andy.jpg
   name: Andy Switzer
   title: Consultant
-  bio: TBC
-  skills: TBC • TBC • TBC • TBC • TBC
+  bio: Creative ideas person. Likes translating ideas into reality. Enjoys problem solving. People person.
+  skills: Strategy implementation, Product development, Business and Service Design Architecture, Business process improvement (lean six sigma), Coaching teams
 
 - avatar: dan.jpg
   name: Dan Leakey
@@ -24,9 +24,9 @@
 
 - avatar: garion.jpg
   name: Garion Woodcock
-  title: Sales
-  bio: TBC
-  skills: TBC • TBC • TBC • TBC • TBC
+  title: Business Development Manager
+  bio: Highly driven technology professional. Passionate about maximising business potential and building valuable relationships.
+  skills: Account growth, Client focussed, Business development, Account management, Partnerships
 
 - avatar: johan.jpg
   name: Johan Gant
@@ -85,7 +85,7 @@
 - avatar: paulina.jpg
   name: Paulina Ziecik
   title: Office Manager
-  bio: The lynchpin of the team. Amateur manga comic book artist learning frontend design. Keen DSLR photographer.
+  bio: Linchpin of the team. Amateur manga comic book artist learning frontend design. Keen DSLR photographer.
   skills: Administration, Budget monitoring, Adaptability, Multi-tasking
 
 - avatar: phil.jpg
@@ -98,4 +98,4 @@
   name: Randal Whitmore
   title: Marketing Manager
   bio: Goal-driven marketeer. Creative soul. Big believer in collaboration. People person.
-  skills: Digital marketing, Multi-channel campaign marketing, Web analytics, Content production, Event production and community building
+  skills: Digital marketing, Multi-channel campaign marketing, Web analytics, Content production, Event production & community building
