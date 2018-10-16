@@ -2,5 +2,6 @@
     User Variable Overrides
 *******************************/
 
+@fontWeight: @normal;
 @primaryTextColor : @grey;
 @iconOpacity: 1;
