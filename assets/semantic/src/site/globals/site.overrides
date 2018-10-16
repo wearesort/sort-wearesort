@@ -178,6 +178,7 @@
         margin-top: .5em !important;
         margin-bottom: .5em !important;
         border-radius: 50% !important;
+        box-shadow: none !important;
         :first-child {
           border-radius: 50% !important;
         }
