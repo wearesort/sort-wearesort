@@ -5,3 +5,4 @@ assets/semantic/node_modules
 .idea
 .jekyll-metadata
 *.sass-cache
+.vscode
