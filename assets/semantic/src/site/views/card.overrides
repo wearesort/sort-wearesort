@@ -1,6 +1,10 @@
 /*******************************
     User Variable Overrides
 *******************************/
+.ui.cards .card .content .description {
+    font-size: 15px;
+}
+
 .ui.teaser.cards.content-flow {
     // Trumping an important from semantic-ui itself, argh.
     margin-top: 0 !important;
