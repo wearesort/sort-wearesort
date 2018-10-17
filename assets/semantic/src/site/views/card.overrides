@@ -12,7 +12,8 @@
     //margin-left: -10em;
     //margin-right: -10em;
 }
-.centered.card > * {
+.centered.card * {
+    text-align: center;
     align-items: center;
     justify-content: center;
 }
