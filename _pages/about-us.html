@@ -5,12 +5,27 @@ permalink: /about-us/
 ---
 <h1>About us</h1>
 <p>We are Sort. We're a bit different from your average digital company, but we think that's a good thing.</p>
-<p>At a glance:</p>
-<ul>
-  <li>Our team includes highly skilled consultants, UX/UI & service designers, and developers.</li>
-  <li>We primarily work remotely, spending time on-site with clients as needed. Many of our team members are based in London and around the M25 but we have colleagues in Bristol, Southampton, and Scotland.</li>
-  <li>Collectively, we’ve got lots of experience in a wide variety of industries across private and public sectors.</li>
-</ul>
+<h2>At a glance:</h2>
+<div class="ui three stackable teaser cards content-flow">
+  {% include teaser-middle.html
+    image_src="/assets/files/images/icons/group.svg"
+    image_alt="Group icon"
+    header="Highly skilled"
+    description="<a href=\"/our-team\" title=\"Our team\">Our team</a> includes highly skilled consultants, UX/UI & service designers, and developers."
+  %}
+  {% include teaser-middle.html
+    image_src="/assets/files/images/icons/network.svg"
+    image_alt="Network icon"
+    header="Remote working"
+    description="We primarily work remotely, spending time on-site with clients as needed. Many of our team members are based in London and around the M25 but we have colleagues in Bristol, Southampton, and Scotland."
+  %}
+  {% include teaser-middle.html
+    image_src="/assets/files/images/icons/brain.svg"
+    image_alt="Brain icon"
+    header="Wealth of experience"
+    description="Collectively, we’ve got lots of experience in a wide variety of industries across private and public sectors."
+  %}
+</div>
 <div class="ui two stackable teaser cards">
   {% include teaser.html
     header="Sort was born to be different"
