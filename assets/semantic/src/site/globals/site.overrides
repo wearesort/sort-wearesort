@@ -137,37 +137,40 @@
  Home
 ---------------------*/
 .home {
-  .main {
+  .main.container {
+    @media only screen and (max-width: @largestMobileScreen) {
+      margin-top: 5.5em;
+    }
     .masthead {
       h1 {
         font-family: 'Open Sans', sans-serif;
         font-weight: normal;
         line-height: 1.6em;
+        font-size: 1.8rem;
       }
-      @media only screen and (min-width: @largestMobileScreen) {
+      img {
+        width: 33%;
+        height: 33%;
+      }
+      .ui.header {
+        margin-top: 3rem !important;
+        margin-bottom: 3rem !important;
+      }
+      @media only screen and (max-width: @largestTabletScreen) {
         h1 {
-          font-size: 1.8rem;
+          font-size: 1.6rem;
         }
         img {
-          width: 25%;
-          height: 25%;
-        }
-        .ui.header {
-          margin-top: 3rem !important;
-          margin-bottom: 3rem !important;
+          width: 48%;
+          height: 48%;
         }
       }
       @media only screen and (max-width: @largestMobileScreen) {
-        h1 {
+        h2 {
           font-size: 1.4rem;
         }
         img {
-          width: 75%;
-          height: 75%;
-        }
-        .ui.header {
-          margin-top: 2rem !important;
-          margin-bottom: 2rem !important;
+          display: none
         }
       }
     }
