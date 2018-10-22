@@ -39,3 +39,7 @@
 .ui.card .no-bg {
     background: transparent !important;
 }
+
+.ui.teaser.cards>.card .button {
+    font-size: @big;
+}
