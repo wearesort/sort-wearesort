@@ -21,6 +21,9 @@
     .toc.item {
       padding: 2em 1.125em;
     }
+    .active.item {
+      background: none;
+    }
   }
 }
 @media only screen and (max-width: @largestMobileScreen) {
