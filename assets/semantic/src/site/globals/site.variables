@@ -43,6 +43,13 @@
 @strongTransparentYellow : rgba(247, 194, 22, 0.10);
 
 /*-------------------
+  Links
+--------------------*/
+@linkColor          : @secondaryColor;
+@linkUnderline      : underline;
+@linkHoverUnderline : none;
+
+/*-------------------
  Page
 --------------------*/
 @lineHeight : 1.6em;
