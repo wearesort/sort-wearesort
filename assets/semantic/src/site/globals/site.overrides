@@ -141,6 +141,18 @@
 ---------------------*/
 .home {
   .main.container {
+    .highlight.button {
+      padding: .5em;
+      border-radius: 0;
+      text-align: left;
+      span {
+        margin-right: 10px;
+      }
+      .arrow-alt {
+        width: 15px;
+        height: 14px;
+      }
+    }
     @media only screen and (max-width: @largestMobileScreen) {
       margin-top: 5.5em;
     }
