@@ -36,13 +36,6 @@
 @iron           : #808080;
 
 /*-------------------
-  Background Colors
---------------------*/
-@subtleTransparentYellow : rgba(247, 194, 22, 0.03);
-@transparentYellow       : rgba(247, 194, 22, 0.05);
-@strongTransparentYellow : rgba(247, 194, 22, 0.10);
-
-/*-------------------
   Links
 --------------------*/
 @linkColor          : @secondaryColor;
@@ -54,8 +47,3 @@
 --------------------*/
 @lineHeight : 1.6em;
 @textColor  : @grey;
-
-/*-------------------
- Highlighted Text
---------------------*/
-@highlightBackground : #FEF2CB;

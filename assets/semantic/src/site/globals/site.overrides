@@ -40,6 +40,25 @@
 }
 
 /*-------------------
+ Cookie compliance
+---------------------*/
+.ui.nag {
+  color: @teal !important;
+  > .container {
+    display: flex;
+    align-items: center;
+    i.icon {
+      margin-left: 1em;
+    }
+  }
+  @media only screen and (max-width: @largestMobileScreen) {
+    position: static !important;
+    top: auto !important;
+    margin-top: 5em !important;
+  }
+}
+
+/*-------------------
  Main
 ---------------------*/
 .main.container {
@@ -61,198 +80,10 @@
 }
 
 /*-------------------
- Cookie compliance
----------------------*/
-.ui.nag {
-  color: @teal !important;
-  > .container {
-    display: flex;
-    align-items: center;
-    i.icon {
-      margin-left: 1em;
-    }
-  }
-  @media only screen and (max-width: @largestMobileScreen) {
-    position: static !important;
-    top: auto !important;
-    margin-top: 5em !important;
-  }
-}
-
-/*-------------------
- Clients
----------------------*/
-.ui.horizontal.clients.list {
-  > .our.item {
-    img {
-      height: 80px;
-    }
-  }
-  > .team.item {
-    img {
-      height: 35px;
-    }
-  }
-}
-@media only screen and (max-width: @largestMobileScreen) {
-  .ui.horizontal.clients.list {
-    > .our.item,
-    > .team.item {
-      display: block !important;
-      padding-top: .7em;
-      padding-bottom: .7em;
-      img {
-        width: 150px;
-        height: auto;
-      }
-    }
-  }
-  .ui.horizontal.clients.list {
-    > .item:first-child {
-      padding-top: 0;
-    }
-    > .item:not(:first-child) {
-      margin: 0;
-      padding-left: 0;
-    }
-  }
-  .ui.horizontal.clients.list {
-    > .item:last-child {
-      padding-bottom: 0;
-    }
-    > .item:not(:last-child) {
-      margin: 0;
-      padding-right: 0;
-    }
-  }
-}
-
-/*-------------------
  Footer
 ---------------------*/
 @media only screen and (min-width: @largestMobileScreen) {
   .footer.segment {
     padding: 4em 0em !important;
-  }
-}
-
-/*-------------------
- Home
----------------------*/
-.home {
-  .main.container {
-    .highlight.button {
-      padding: .5em;
-      border-radius: 0;
-      text-align: left;
-      span {
-        margin-right: 10px;
-      }
-      .arrow-alt {
-        width: 15px;
-        height: 14px;
-      }
-    }
-    @media only screen and (max-width: @largestMobileScreen) {
-      margin-top: 5.5em;
-    }
-    .masthead {
-      h1 {
-        font-family: 'Open Sans', sans-serif;
-        font-weight: normal;
-        line-height: 1.6em;
-        font-size: 1.8rem;
-      }
-      img {
-        width: 33%;
-        height: 33%;
-      }
-      .ui.header {
-        margin-top: 3rem !important;
-        margin-bottom: 3rem !important;
-      }
-      @media only screen and (max-width: @largestTabletScreen) {
-        h1 {
-          font-size: 1.6rem;
-        }
-        img {
-          width: 48%;
-          height: 48%;
-        }
-      }
-      @media only screen and (max-width: @largestMobileScreen) {
-        h2 {
-          font-size: 1.4rem;
-        }
-        img {
-          display: none
-        }
-      }
-    }
-    .ui.cards {
-      margin-bottom: 1em !important;
-      margin-top: 1em !important;
-      > .card {
-        margin-top: .5em !important;
-        margin-bottom: .5em !important;
-        border-radius: 50% !important;
-        box-shadow: none !important;
-        :first-child {
-          border-radius: 50% !important;
-        }
-        :last-child {
-          border-radius: 50% !important;
-        }
-        :only-child {
-          border-radius: 50% !important;
-        }
-      }
-    }
-    .ui.five.cards {
-      @media only screen and (min-width: @largestMobileScreen) {
-        display: none;
-      }
-    }
-    .ui.ten.cards {
-      @media only screen and (max-width: @largestMobileScreen) {
-        display: none;
-      }
-    }
-  }
-}
-
-/*-------------------
- Sort code
----------------------*/
-.sort-code {
-  .not {
-    color: @iron;
-  }
-  i.icon {
-    min-width: 23px;
-  }
-}
-
-/*-------------------
- Team
----------------------*/
-.ui.three.cards {
-  > .card {
-    font-size: .9em !important;
-  }
-}
-
-/*-------------------
- Teaser cards
----------------------*/
-.ui.teaser.cards {
-  margin-bottom: 4em !important;
-  > .card {
-    > .content {
-      padding: 2em !important;
-    }
-    .button {
-      padding: 2em;
-    }
   }
 }
