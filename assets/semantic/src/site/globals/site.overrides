@@ -59,21 +59,32 @@
 }
 
 /*-------------------
+ Stripe
+---------------------*/
+.stripe:nth-child(odd) {
+  background-color: @yellow;
+}
+.stripe:nth-child(even) {
+  background-color: @orange;
+}
+
+/*-------------------
+ Block
+---------------------*/
+.block {
+  padding-top: 4em !important;
+  padding-bottom: 4em !important;
+  &.centered {
+    text-align: center;
+  }
+}
+
+/*-------------------
  Main
 ---------------------*/
-.main.container {
+.main {
   margin-top: 4em;
   margin-bottom: 4em;
-  .ui.vertical.center.aligned.segment {
-    padding-top: 4em !important;
-    padding-bottom: 4em !important;
-    &:first-child {
-      padding-top: 0 !important;
-    }
-    &:last-child {
-      padding-bottom: 0 !important;
-    }
-  }
   @media only screen and (min-width: @largestMobileScreen) {
     min-height: 500px;
   }
