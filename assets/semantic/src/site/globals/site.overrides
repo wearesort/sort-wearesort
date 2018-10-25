@@ -64,12 +64,7 @@
 /*-------------------
  Stripe
 ---------------------*/
-.stripe:nth-child(odd) {
-  background-color: @yellow;
-}
-.stripe:nth-child(even) {
-  background-color: @orange;
-}
+
 
 /*-------------------
  Block
