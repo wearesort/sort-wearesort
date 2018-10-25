@@ -68,7 +68,53 @@
 /*-------------------
  Stripe
 ---------------------*/
-
+.stripe {
+  background-size: cover;
+}
+.home {
+  .stripe:nth-of-type(3) {
+    background-image: url("/assets/files/images/backgrounds/whiteboard.jpg");
+  }
+  .stripe:nth-of-type(5) {
+    background-image: url("/assets/files/images/backgrounds/stickies.jpg");
+    color: @white;
+    .ui.header {
+      color: @white;
+    }
+  }
+  .stripe:nth-of-type(6) {
+    background-image: url("/assets/files/images/backgrounds/meeting.jpg");
+  }
+}
+.what-we-do {
+  .stripe:nth-of-type(3) {
+    background-image: url("/assets/files/images/backgrounds/meeting-yellow.jpg");
+  }
+}
+.how-we-work {
+  .stripe:nth-of-type(3) {
+    background-image: url("/assets/files/images/backgrounds/stickies-yellow.jpg");
+  }
+}
+.about-us {
+  .stripe:nth-of-type(3) {
+    background-image: url("/assets/files/images/backgrounds/report.jpg");
+  }
+}
+.contact-us {
+  .stripe:nth-of-type(3) {
+    background-image: url("/assets/files/images/backgrounds/window.jpg");
+  }
+}
+.privacy-policy {
+  .stripe:nth-of-type(3) {
+    background-color: @black;
+    color: @white;
+    .ui.header {
+      color: @white;
+    }
+  }
+}
 
 /*-------------------
  Block

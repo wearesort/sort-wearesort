@@ -1,11 +1,12 @@
 ---
 title: Home
+slug: home
 permalink: /
 ---
 <!doctype html>
 <html lang="en">
   {% include head.html %}
-  <body class="home">
+  <body class="{{ page.slug }}">
     {% include gtm-noscript.html %}
     {% include main-menu.html %}
     {% include sidebar-menu.html %}

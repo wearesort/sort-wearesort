@@ -1,16 +1,14 @@
 <!doctype html>
 <html lang="en">
   {% include head.html %}
-  <body>
+  <body class="{{ page.slug }}">
     {% include gtm-noscript.html %}
     {% include main-menu.html %}
     {% include sidebar-menu.html %}
     <div class="pusher">
       {% include secondary-menu.html %}
       {% include cookie-consent.html %}
-      <div class="ui main text container">
-        {{ content }}
-      </div>
+      {{ content }}
       {% include footer.html %}
     </div>
   </body>
