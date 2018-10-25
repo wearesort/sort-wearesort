@@ -47,6 +47,9 @@
   > .container {
     display: flex;
     align-items: center;
+    a {
+      color: @teal;
+    }
     i.icon {
       margin-left: 1em;
     }

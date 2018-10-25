@@ -39,6 +39,7 @@
   Links
 --------------------*/
 @linkColor          : @secondaryColor;
+@linkHoverColor     : @secondaryColor;
 @linkUnderline      : underline;
 @linkHoverUnderline : none;
 
