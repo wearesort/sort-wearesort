@@ -96,5 +96,13 @@
 @media only screen and (min-width: @largestMobileScreen) {
   .footer.segment {
     padding: 4em 0em !important;
+    .column:last-child {
+      box-shadow: none !important;
+    }
+    a {
+      i {
+        text-decoration: none;
+      }
+    }
   }
 }
