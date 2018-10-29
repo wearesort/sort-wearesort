@@ -70,6 +70,7 @@
 ---------------------*/
 .stripe {
   background-size: cover;
+  background-position: center;
 }
 .home {
   .stripe:nth-of-type(3) {
