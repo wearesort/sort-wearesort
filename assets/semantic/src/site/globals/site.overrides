@@ -20,6 +20,7 @@
   background-color: @white !important;
   margin-right: 0 !important;
   margin-left: 0 !important;
+  border-bottom: 1px solid @borderColor !important;
   .ui.text.container {
     font-size: 1rem;
     .toc.item {
@@ -62,6 +63,7 @@
     position: static !important;
     top: auto !important;
     margin-top: 5em !important;
+    margin-bottom: -5em !important;
   }
 }
 
