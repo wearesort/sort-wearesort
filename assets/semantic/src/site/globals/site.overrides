@@ -121,8 +121,8 @@
  Block
 ---------------------*/
 .block {
-  padding-top: 4em !important;
-  padding-bottom: 4em !important;
+  padding-top: 3em !important;
+  padding-bottom: 3em !important;
   &.centered {
     text-align: center;
   }
