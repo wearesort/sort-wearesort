@@ -72,6 +72,11 @@
   background-size: cover;
   background-position: center;
 }
+@media only screen and (max-width: @largestMobileScreen) {
+  .stripe:nth-of-type(3) {
+    margin-top: 5em;
+  }
+}
 .home {
   .stripe:nth-of-type(3) {
     background-image: url("/assets/files/images/backgrounds/whiteboard.jpg");
