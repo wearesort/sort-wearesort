@@ -76,15 +76,15 @@
   .stripe:nth-of-type(3) {
     background-image: url("/assets/files/images/backgrounds/whiteboard.jpg");
   }
+  .stripe:nth-of-type(4) {
+    background-image: url("/assets/files/images/backgrounds/meeting.jpg");
+  }
   .stripe:nth-of-type(5) {
     background-image: url("/assets/files/images/backgrounds/stickies.jpg");
     color: @white;
     .ui.header {
       color: @white;
     }
-  }
-  .stripe:nth-of-type(6) {
-    background-image: url("/assets/files/images/backgrounds/meeting.jpg");
   }
 }
 .what-we-do {
