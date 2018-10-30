@@ -91,24 +91,15 @@
     }
   }
 }
-.what-we-do {
+.what-we-do,
+.how-we-work,
+.about-us,
+.contact-us {
   .stripe:nth-of-type(3) {
     background-image: url("/assets/files/images/backgrounds/meeting-yellow.jpg");
   }
-}
-.how-we-work {
-  .stripe:nth-of-type(3) {
-    background-image: url("/assets/files/images/backgrounds/stickies-yellow.jpg");
-  }
-}
-.about-us {
-  .stripe:nth-of-type(3) {
-    background-image: url("/assets/files/images/backgrounds/report.jpg");
-  }
-}
-.contact-us {
-  .stripe:nth-of-type(3) {
-    background-image: url("/assets/files/images/backgrounds/window.jpg");
+  .stripe:nth-of-type(5) {
+    background-image: url("/assets/files/images/backgrounds/meeting.jpg");
   }
 }
 .privacy-policy {
@@ -139,8 +130,8 @@
  Main
 ---------------------*/
 .main {
-  margin-top: 4em;
-  margin-bottom: 4em;
+  margin-top: 2em;
+  margin-bottom: 2em;
   @media only screen and (min-width: @largestMobileScreen) {
     min-height: 500px;
   }
