@@ -1,3 +1,18 @@
 /*******************************
     User Variable Overrides
 *******************************/
+
+/*-------------------
+ Custom Icons
+---------------------*/
+@importCustomIcons: true;
+@customFontPath: '/assets/files/fonts';
+@customFontName: 'sort-icons';
+@customSrc:
+  url("@{customFontPath}/@{customFontName}.eot?#iefix") format('embedded-opentype'),
+  url("@{customFontPath}/@{customFontName}.woff2") format('woff2'),
+  url("@{customFontPath}/@{customFontName}.woff") format('woff'),
+  url("@{customFontPath}/@{customFontName}.ttf") format('truetype'),
+  url("@{customFontPath}/@{customFontName}.svg#icons") format('svg')
+;
+@customFallbackSRC: url("@{customFontPath}/@{customFontName}.eot");
