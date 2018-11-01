@@ -130,8 +130,14 @@
  Main
 ---------------------*/
 .main {
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  .block {
+    padding-top: 0 !important;
+    &:last-child {
+      padding-bottom: 0 !important;
+    }
+  }
   @media only screen and (min-width: @largestMobileScreen) {
     min-height: 500px;
   }
