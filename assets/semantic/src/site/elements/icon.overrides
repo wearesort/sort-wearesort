@@ -69,5 +69,7 @@
   i.icon.two.men.handshake.custom:before { content: "\f110"; }
   i.icon.web.design.custom:before { content: "\f123"; }
   i.icon.x64.custom:before { content: "\f12c"; }
+  i.icon.linkedin.custom:before { content: "\f12f"; }
+  i.icon.twitter.custom:before { content: "\f130"; }
 }
 .loadCustomIcons();
