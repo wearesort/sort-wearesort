@@ -1,5 +1,25 @@
-<div class="centered block">
-  <h1 class="ui header">{{ include.title }}</h1>
-  <p class="large-body">{{ include.body-1 }}</p>
-  <p class="large-body">{{ include.body-2 }}</p>
+<div class="twin block">
+  <div class="ui stackable grid">
+    <div class="row">
+      <div class="eight wide column">
+        {% include block-3.html
+        icon=include.icon-1
+        title=include.title-1
+        body=include.body-1
+        %}
+      </div>
+      <div class="eight wide column">
+        {% include block-3.html
+        icon=include.icon-2
+        title=include.title-2
+        body=include.body-2
+        %}
+      </div>
+    </div>
+  </div>
+  <div class="ui grid">
+    <div class="center aligned column">
+      <button class="ui {{ include.brand }} button">{{ include.cta }}</button>
+    </div>
+  </div>
 </div>
