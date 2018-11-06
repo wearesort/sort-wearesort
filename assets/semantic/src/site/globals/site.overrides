@@ -118,7 +118,7 @@
 .block {
   padding-top: 3em !important;
   padding-bottom: 3em !important;
-  a {
+  > a {
     text-decoration: none;
     .ui.header:last-child {
       margin-bottom: 1rem;
