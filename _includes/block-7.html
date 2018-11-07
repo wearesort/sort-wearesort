@@ -1,11 +1,11 @@
 <div class="block">
   <a href="{{ include.url }}" {% unless include.mailto %}target="_blank"{% endunless %}>
-    <h2 class="ui header">
+    <h3 class="ui header">
       <i class="{{ include.icon }} icon"></i>
       <div class="content">
         {{ include.title }}
       </div>
-    </h2>
+    </h3>
   </a>
   <p>{{ include.body }}</p>
 </div>
