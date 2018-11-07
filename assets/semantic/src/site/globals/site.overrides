@@ -83,7 +83,8 @@
   .stripe:nth-of-type(3) {
     background-image: url("/assets/files/images/backgrounds/whiteboard.jpg");
   }
-  .stripe:nth-of-type(5) {
+  .stripe:nth-of-type(5),
+  .stripe:nth-of-type(7) {
     background-image: url("/assets/files/images/backgrounds/stickies.jpg");
     color: @white;
     .ui.header {
