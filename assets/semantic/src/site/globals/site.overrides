@@ -136,6 +136,9 @@
           .block {
             padding-top: 0!important;
             padding-bottom: 0!important;
+            p {
+              font-size: 1.125rem
+            }
             p:last-child {
               margin-bottom: 1em;
             }
