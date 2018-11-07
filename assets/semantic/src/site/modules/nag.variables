@@ -2,9 +2,9 @@
     User Variable Overrides
 *******************************/
 
-@background: @tealBackground;
+@background: @warningBackgroundColor;
 @boxShadow: none;
 @textAlign: left;
-@titleColor: @teal;
-@closeColor: @teal;
+@titleColor: @warningTextColor;
+@closeColor: @warningTextColor;
 @borderRadius: 0;

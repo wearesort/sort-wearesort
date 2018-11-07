@@ -48,12 +48,12 @@
  Cookie compliance
 ---------------------*/
 .ui.nag {
-  color: @teal !important;
+  color: @warningTextColor !important;
   > .container {
     display: flex;
     align-items: center;
     a {
-      color: @teal;
+      color: @warningTextColor;
     }
     i.icon {
       margin-left: 1em;
