@@ -186,9 +186,12 @@
 .main {
   margin-top: 3em;
   margin-bottom: 3em;
+  counter-reset: sort-counter;
   .ui.ordered.list {
-    > .item {
-      list-style-type: decimal;
+    > .item:before {
+      margin-left: -1.25rem;
+      counter-increment: sort-counter;
+      content: counter(sort-counter) ".";
     }
   }
   .block {
