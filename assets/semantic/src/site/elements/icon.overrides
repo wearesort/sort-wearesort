@@ -22,34 +22,34 @@
     font-family: @customFontName;
   }
   /* Icon Definitions */
-  i.icon.1st:before { content: "\f101"; }
-  i.icon.api:before { content: "\f111"; }
-  i.icon.business-handshake:before { content: "\f113"; }
-  i.icon.circled-2:before { content: "\f102"; }
-  i.icon.circled-3:before { content: "\f103"; }
-  i.icon.circled-4:before { content: "\f104"; }
-  i.icon.circled-5:before { content: "\f105"; }
-  i.icon.circled-6:before { content: "\f106"; }
-  i.icon.circled-7:before { content: "\f107"; }
-  i.icon.circled-8:before { content: "\f108"; }
-  i.icon.circled-9:before { content: "\f100"; }
-  i.icon.cycle-arrows:before { content: "\f109"; }
-  i.icon.developer:before { content: "\f119"; }
-  i.icon.email:before { content: "\f10d"; }
-  i.icon.exchange:before { content: "\f114"; }
-  i.icon.growth-graph:before { content: "\f10b"; }
-  i.icon.idea:before { content: "\f118"; }
-  i.icon.idea-light:before { content: "\f117"; }
-  i.icon.increasing-graph:before { content: "\f10a"; }
-  i.icon.linkedin:before { content: "\f115"; }
-  i.icon.location:before { content: "\f10f"; }
-  i.icon.person-location:before { content: "\f11c"; }
-  i.icon.phone:before { content: "\f10c"; }
-  i.icon.show-location:before { content: "\f10e"; }
-  i.icon.source-code:before { content: "\f110"; }
-  i.icon.talk-bubble:before { content: "\f112"; }
-  i.icon.tick-box:before { content: "\f11b"; }
-  i.icon.trophy:before { content: "\f11a"; }
-  i.icon.twitter:before { content: "\f116"; }
+  i.icon.1st.custom:before { content: "\f101"; }
+  i.icon.api.custom:before { content: "\f111"; }
+  i.icon.business-handshake.custom:before { content: "\f113"; }
+  i.icon.circled-2.custom:before { content: "\f102"; }
+  i.icon.circled-3.custom:before { content: "\f103"; }
+  i.icon.circled-4.custom:before { content: "\f104"; }
+  i.icon.circled-5.custom:before { content: "\f105"; }
+  i.icon.circled-6.custom:before { content: "\f106"; }
+  i.icon.circled-7.custom:before { content: "\f107"; }
+  i.icon.circled-8.custom:before { content: "\f108"; }
+  i.icon.circled-9.custom:before { content: "\f100"; }
+  i.icon.cycle-arrows.custom:before { content: "\f109"; }
+  i.icon.developer.custom:before { content: "\f119"; }
+  i.icon.email.custom:before { content: "\f10d"; }
+  i.icon.exchange.custom:before { content: "\f114"; }
+  i.icon.growth-graph.custom:before { content: "\f10b"; }
+  i.icon.idea.custom:before { content: "\f118"; }
+  i.icon.idea-light.custom:before { content: "\f117"; }
+  i.icon.increasing-graph.custom:before { content: "\f10a"; }
+  i.icon.linkedin.custom:before { content: "\f115"; }
+  i.icon.location.custom:before { content: "\f10f"; }
+  i.icon.person-location.custom:before { content: "\f11c"; }
+  i.icon.phone.custom:before { content: "\f10c"; }
+  i.icon.show-location.custom:before { content: "\f10e"; }
+  i.icon.source-code.custom:before { content: "\f110"; }
+  i.icon.talk-bubble.custom:before { content: "\f112"; }
+  i.icon.tick-box.custom:before { content: "\f11b"; }
+  i.icon.trophy.custom:before { content: "\f11a"; }
+  i.icon.twitter.custom:before { content: "\f116"; }
 }
 .loadCustomIcons();
