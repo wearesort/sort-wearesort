@@ -2,4 +2,4 @@
     User Variable Overrides
 *******************************/
 
-@iconSize: 2.3em;
+@iconSize: 3em;
