@@ -186,6 +186,11 @@
 .main {
   margin-top: 3em;
   margin-bottom: 3em;
+  .ui.ordered.list {
+    > .item {
+      list-style-type: decimal;
+    }
+  }
   .block {
     padding-top: 0 !important;
     &:last-child {
