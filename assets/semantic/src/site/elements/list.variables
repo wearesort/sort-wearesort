@@ -3,7 +3,8 @@
 *******************************/
 
 @itemVerticalPadding: @relative8px;
+@itemLineHeight: 1.6em;
 @orderedCountOpacity: 1;
 @bulletDistance: 2.5rem;
 @bulletOffset: -1.25rem;
-@orderedCountDistance: 2.5rem;
+@orderedCountDistance: 3rem;

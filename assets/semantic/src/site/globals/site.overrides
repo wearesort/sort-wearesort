@@ -189,7 +189,7 @@
   counter-reset: sort-counter;
   .ui.ordered.list {
     > .item:before {
-      margin-left: -1.25rem;
+      margin-left: -1.75rem;
       counter-increment: sort-counter;
       content: counter(sort-counter) ".";
     }
