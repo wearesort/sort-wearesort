@@ -2,7 +2,7 @@
     User Variable Overrides
 *******************************/
 
-@itemVerticalPadding: @relative8px;
+@itemVerticalPadding: @relative4px;
 @itemLineHeight: 1.6em;
 @orderedCountOpacity: 1;
 @bulletDistance: 2.5rem;
