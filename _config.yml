@@ -31,3 +31,6 @@ exclude:
   - assets/semantic/gulpfile.js
   - assets/package-lock.json
   - assets/semantic.json
+
+# Site settings
+url: https://wearesort.co.uk
