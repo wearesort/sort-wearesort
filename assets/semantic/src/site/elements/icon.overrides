@@ -43,8 +43,10 @@
   i.icon.increasing-graph.custom:before { content: "\f10a"; }
   i.icon.linkedin.custom:before { content: "\f115"; }
   i.icon.location.custom:before { content: "\f10f"; }
+  i.icon.neural-network.custom:before { content: "\f11d"; }
   i.icon.person-location.custom:before { content: "\f11c"; }
   i.icon.phone.custom:before { content: "\f10c"; }
+  i.icon.process.custom:before { content: "\f11e"; }
   i.icon.show-location.custom:before { content: "\f10e"; }
   i.icon.source-code.custom:before { content: "\f110"; }
   i.icon.talk-bubble.custom:before { content: "\f112"; }
