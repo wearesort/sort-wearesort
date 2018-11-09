@@ -1,0 +1,431 @@
+/*!
+ * # Semantic UI 2.4.0 - Site
+ * http://github.com/semantic-org/semantic-ui/
+ *
+ *
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+
+/*******************************
+             Page
+*******************************/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:extrabold,black|Open+Sans:regular,bold,regularitalic');
+html,
+body {
+  height: 100%;
+}
+html {
+  font-size: 16px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  min-width: 320px;
+  background: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  color: #3C3C3B;
+  font-smoothing: antialiased;
+}
+
+
+/*******************************
+             Headers
+*******************************/
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Montserrat, sans-serif;
+  line-height: 1.28571429em;
+  margin: calc(4rem -  0.14285714em ) 0em 1rem;
+  font-weight: bold;
+  padding: 0em;
+}
+h1 {
+  min-height: 1rem;
+  font-size: 2.28571429rem;
+}
+h2 {
+  font-size: 1.71428571rem;
+}
+h3 {
+  font-size: 1.28571429rem;
+}
+h4 {
+  font-size: 1.07142857rem;
+}
+h5 {
+  font-size: 1rem;
+}
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child {
+  margin-top: 0em;
+}
+h1:last-child,
+h2:last-child,
+h3:last-child,
+h4:last-child,
+h5:last-child {
+  margin-bottom: 0em;
+}
+
+
+/*******************************
+             Text
+*******************************/
+
+p {
+  margin: 0em 0em 1em;
+  line-height: 1.6em;
+}
+p:first-child {
+  margin-top: 0em;
+}
+p:last-child {
+  margin-bottom: 0em;
+}
+
+/*-------------------
+        Links
+--------------------*/
+
+a {
+  color: #3C3C3B;
+  text-decoration: underline;
+}
+a:hover {
+  color: #3C3C3B;
+  text-decoration: none;
+}
+
+
+/*******************************
+         Scrollbars
+*******************************/
+
+
+
+/*******************************
+          Highlighting
+*******************************/
+
+
+/* Site */
+::-webkit-selection {
+  background-color: #CCE2FF;
+  color: #3C3C3B;
+}
+::-moz-selection {
+  background-color: #CCE2FF;
+  color: #3C3C3B;
+}
+::selection {
+  background-color: #CCE2FF;
+  color: #3C3C3B;
+}
+
+/* Form */
+textarea::-webkit-selection,
+input::-webkit-selection {
+  background-color: rgba(100, 100, 100, 0.4);
+  color: #3C3C3B;
+}
+textarea::-moz-selection,
+input::-moz-selection {
+  background-color: rgba(100, 100, 100, 0.4);
+  color: #3C3C3B;
+}
+textarea::selection,
+input::selection {
+  background-color: rgba(100, 100, 100, 0.4);
+  color: #3C3C3B;
+}
+
+/* Force Simple Scrollbars */
+body ::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 10px;
+  height: 10px;
+}
+body ::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+}
+body ::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.25);
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+}
+body ::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(0, 0, 0, 0.15);
+}
+body ::-webkit-scrollbar-thumb:hover {
+  background: rgba(128, 135, 139, 0.8);
+}
+
+/* Inverted UI */
+body .ui.inverted::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+}
+body .ui.inverted::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.25);
+}
+body .ui.inverted::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(255, 255, 255, 0.15);
+}
+body .ui.inverted::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.35);
+}
+
+
+/*******************************
+        Global Overrides
+*******************************/
+
+
+
+/*******************************
+         Site Overrides
+*******************************/
+
+
+/*-------------------
+ Menu
+---------------------*/
+
+.ui.main.menu {
+  margin: 0;
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.secondary.menu {
+  display: none !important;
+}
+.ui.secondary.menu {
+  right: 0 !important;
+  background-color: #FFFFFF !important;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  border-bottom: 1px solid rgba(34, 36, 38, 0.15) !important;
+}
+.ui.secondary.menu .ui.text.container {
+  font-size: 1rem;
+}
+.ui.secondary.menu .ui.text.container .toc.item {
+  padding: 2em 1.125em;
+}
+.ui.secondary.menu .ui.text.container a.item {
+  background-color: #FFFFFF;
+}
+@media only screen and (max-width: 767px) {
+  .ui.main.menu {
+    display: none !important;
+  }
+  .main.menu .item,
+  .main.menu .menu {
+    display: none;
+  }
+  .secondary.menu {
+    display: block !important;
+  }
+}
+
+/*-------------------
+ Cookie compliance
+---------------------*/
+
+.ui.nag {
+  color: #573A08 !important;
+}
+.ui.nag > .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.ui.nag > .container a {
+  color: #573A08;
+}
+.ui.nag > .container i.icon {
+  margin-left: 1em;
+}
+@media only screen and (max-width: 767px) {
+  .ui.nag {
+    position: static !important;
+    top: auto !important;
+    margin-top: 5em !important;
+    margin-bottom: -5em !important;
+  }
+}
+
+/*-------------------
+ Stripe
+---------------------*/
+
+.stripe {
+  background-size: cover;
+  background-position: center;
+}
+@media only screen and (max-width: 767px) {
+  .stripe:nth-of-type(3) {
+    margin-top: 5em;
+  }
+}
+.home .stripe:nth-of-type(3) {
+  background-image: url("/assets/files/images/backgrounds/whiteboard.jpg");
+}
+.home .stripe:nth-of-type(5),
+.home .stripe:nth-of-type(7) {
+  background-image: url("/assets/files/images/backgrounds/stickies.jpg");
+  color: #FFFFFF;
+}
+.home .stripe:nth-of-type(5) .ui.header,
+.home .stripe:nth-of-type(7) .ui.header {
+  color: #FFFFFF;
+}
+.what-we-do .stripe:nth-of-type(3),
+.how-we-work .stripe:nth-of-type(3),
+.about-us .stripe:nth-of-type(3),
+.contact-us .stripe:nth-of-type(3) {
+  background-image: url("/assets/files/images/backgrounds/meeting-yellow.jpg");
+}
+.what-we-do .stripe:nth-of-type(5),
+.how-we-work .stripe:nth-of-type(5),
+.about-us .stripe:nth-of-type(5),
+.contact-us .stripe:nth-of-type(5) {
+  background-image: url("/assets/files/images/backgrounds/meeting.jpg");
+}
+.privacy-policy .stripe:nth-of-type(3) {
+  background-color: #3C3C3B;
+  color: #FFFFFF;
+}
+.privacy-policy .stripe:nth-of-type(3) .ui.header {
+  color: #FFFFFF;
+}
+
+/*-------------------
+ Block
+---------------------*/
+
+.block {
+  padding-top: 3em !important;
+  padding-bottom: 3em !important;
+}
+.block > a {
+  text-decoration: none;
+}
+.block > a .ui.header:last-child {
+  margin-bottom: 1rem;
+}
+.block.centered {
+  text-align: center;
+}
+.block.twin .grid {
+  margin: 0;
+}
+.block.twin .grid .row {
+  padding: 0!important;
+}
+.block.twin .grid .row .column .block {
+  padding-top: 0!important;
+  padding-bottom: 0!important;
+}
+.block.twin .grid .row .column .block p {
+  font-size: 1.125rem;
+}
+.block.twin .grid .row .column .block p:last-child {
+  margin-bottom: 1em;
+}
+.block.twin .grid .row .column:first-child {
+  padding-left: 0;
+}
+.block.twin .grid .row .column:last-child {
+  padding-right: 0;
+}
+.block.twin .ui.grid + .grid {
+  margin-top: 0;
+}
+.block.twin .ui.grid + .grid .column {
+  padding: 0;
+}
+@media only screen and (max-width: 767px) {
+  .block.twin .ui.stackable.grid > .row > .wide.column {
+    padding: 0 !important;
+  }
+  .block.twin .ui.stackable.grid > .row > .wide.column:first-child {
+    padding-bottom: 3em!important;
+  }
+}
+.block .large-body {
+  font-size: 28px;
+}
+@media only screen and (max-width: 767px) {
+  .block .large-body {
+    font-size: 22px;
+  }
+}
+
+/*-------------------
+ Main
+---------------------*/
+
+.main {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  counter-reset: sort-counter;
+}
+.main .ui.ordered.list > .item:before {
+  margin-left: -1.75rem;
+  counter-increment: sort-counter;
+  content: counter(sort-counter) ".";
+}
+.main .block {
+  padding-top: 0 !important;
+}
+.main .block:last-child {
+  padding-bottom: 0 !important;
+}
+@media only screen and (min-width: 767px) {
+  .main {
+    min-height: 500px;
+  }
+}
+
+/*-------------------
+ Footer
+---------------------*/
+
+.footer.segment .ui.list > .item {
+  padding: 0;
+}
+.footer.segment a {
+  text-decoration: none;
+}
+@media only screen and (min-width: 767px) {
+  .footer.segment {
+    padding: 4em 0em !important;
+  }
+  .footer.segment .column:last-child {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+}
