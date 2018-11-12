@@ -5,21 +5,21 @@
   <!-- Search engines -->
   <title>{{ page.title }}</title>
   <meta name="description" content="{{ page.description }}">
-  <meta name="image" content="/assets/files/images/brand/card.jpg">
+  <meta name="image" content="{{ site.url }}/assets/files/images/brand/card.jpg">
   <!-- Schema.org -->
   <meta itemprop="name" content="{{ page.title }}">
   <meta itemprop="description" content="{{ page.description }}">
-  <meta itemprop="image" content="/assets/files/images/brand/card.jpg">
+  <meta itemprop="image" content="{{ site.url }}/assets/files/images/brand/card.jpg">
   <!-- Twitter -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{{ page.title }}">
   <meta name="twitter:description" content="{{ page.description }}">
   <meta name="twitter:site" content="@{{ site.twitter }}">
-  <meta name="twitter:image:src" content="/assets/files/images/brand/card.jpg">
+  <meta name="twitter:image:src" content="{{ site.url }}/assets/files/images/brand/card.jpg">
   <!-- Open Graph -->
   <meta name="og:title" content="{{ page.title }}">
   <meta name="og:description" content="{{ page.description }}">
-  <meta name="og:image" content="/assets/files/images/brand/card.jpg">
+  <meta name="og:image" content="{{ site.url }}/assets/files/images/brand/card.jpg">
   {% if page.slug == 'home' %}
     <meta name="og:url" content="https://wearesort.co.uk/">
   {% else %}
