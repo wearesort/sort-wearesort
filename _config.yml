@@ -20,7 +20,7 @@ linkedin: wearesort
 markdown: kramdown
 
 # Build inclusions
-include: ["_pages"]
+include: ["_pages","_redirects"]
 
 # Build exclusions
 exclude:
@@ -34,3 +34,4 @@ exclude:
 
 # Site settings
 url: https://wearesort.co.uk
+
