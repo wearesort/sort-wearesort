@@ -82,10 +82,12 @@
 .home {
   .stripe:nth-of-type(3) {
     background-image: url("/assets/files/images/backgrounds/whiteboard.jpg");
+    background-color: #F7C216;
   }
   .stripe:nth-of-type(5),
   .stripe:nth-of-type(7) {
     background-image: url("/assets/files/images/backgrounds/stickies.jpg");
+    background-color: #3C3C3B;
     color: @white;
     .ui.header {
       color: @white;
@@ -95,12 +97,15 @@
 .what-we-do,
 .how-we-work,
 .about-us,
+.our-team,
 .contact-us {
   .stripe:nth-of-type(3) {
     background-image: url("/assets/files/images/backgrounds/meeting-yellow.jpg");
+    background-color: #F7C216;
   }
   .stripe:nth-of-type(5) {
     background-image: url("/assets/files/images/backgrounds/meeting.jpg");
+    background-color: #3C3C3B;
   }
 }
 .privacy-policy {
@@ -200,6 +205,9 @@
       padding-bottom: 0 !important;
     }
   }
+  .ui.cards {
+    margin-top: 3em;
+  }
   @media only screen and (min-width: @largestMobileScreen) {
     min-height: 500px;
   }
@@ -224,4 +232,3 @@
     }
   }
 }
-
