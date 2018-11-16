@@ -863,11 +863,13 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 
 .home .stripe:nth-of-type(3) {
   background-image: url("/assets/files/images/backgrounds/whiteboard.jpg");
+  background-color: #F7C216;
 }
 
 .home .stripe:nth-of-type(5),
 .home .stripe:nth-of-type(7) {
   background-image: url("/assets/files/images/backgrounds/stickies.jpg");
+  background-color: #3C3C3B;
   color: #FFFFFF;
 }
 
@@ -882,6 +884,7 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 .our-team .stripe:nth-of-type(3),
 .contact-us .stripe:nth-of-type(3) {
   background-image: url("/assets/files/images/backgrounds/meeting-yellow.jpg");
+  background-color: #F7C216;
 }
 
 .what-we-do .stripe:nth-of-type(5),
@@ -890,6 +893,7 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 .our-team .stripe:nth-of-type(5),
 .contact-us .stripe:nth-of-type(5) {
   background-image: url("/assets/files/images/backgrounds/meeting.jpg");
+  background-color: #3C3C3B;
 }
 
 .privacy-policy .stripe:nth-of-type(3) {
@@ -1004,7 +1008,7 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 }
 
 .main .ui.cards {
-  margin-top: 2em;
+  margin-top: 3em;
 }
 
 @media only screen and (min-width: 767px) {
