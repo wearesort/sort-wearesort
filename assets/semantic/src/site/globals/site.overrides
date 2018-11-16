@@ -105,7 +105,7 @@
   }
   .stripe:nth-of-type(5) {
     background-image: url("/assets/files/images/backgrounds/meeting.jpg");
-    background-color: #3C3C3B;
+    background-color: #EFEFEF;
   }
 }
 .privacy-policy {

@@ -893,7 +893,7 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 .our-team .stripe:nth-of-type(5),
 .contact-us .stripe:nth-of-type(5) {
   background-image: url("/assets/files/images/backgrounds/meeting.jpg");
-  background-color: #3C3C3B;
+  background-color: #EFEFEF;
 }
 
 .privacy-policy .stripe:nth-of-type(3) {
