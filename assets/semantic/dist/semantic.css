@@ -862,8 +862,20 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 }
 
 .home .stripe:nth-of-type(3) {
-  background-image: url("/assets/files/images/backgrounds/whiteboard.jpg");
+  background-image: url("/assets/files/images/backgrounds/big-yellow-whiteboard-2880-desktop.jpg");
   background-color: #F7C216;
+}
+
+@media only screen and (max-width: 992px) {
+  .home .stripe:nth-of-type(3) {
+    background-image: url("/assets/files/images/backgrounds/big-yellow-whiteboard-1600-tablet.jpg");
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .home .stripe:nth-of-type(3) {
+    background-image: url("/assets/files/images/backgrounds/big-yellow-whiteboard-850-mobile.jpg");
+  }
 }
 
 .home .stripe:nth-of-type(5),
