@@ -773,6 +773,17 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
   box-shadow: none;
 }
 
+.ui.main.menu .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1.8em 1.125em 1.8em 0;
+}
+
+.ui.main.menu .logo svg {
+  height: 1.4em;
+}
+
 .secondary.menu {
   display: none !important;
 }
@@ -872,7 +883,7 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 440px) {
   .home .stripe:nth-of-type(3) {
     background-image: url("/assets/files/images/backgrounds/big-yellow-whiteboard-850-mobile.jpg");
   }

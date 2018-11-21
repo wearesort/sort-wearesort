@@ -11,6 +11,13 @@
   border: none;
   border-bottom: 1px solid @borderColor;
   box-shadow: none;
+  .logo {
+    display: flex;
+    padding: 1.8em 1.125em 1.8em 0;
+    svg {
+      height: 1.4em;
+    }
+  }
 }
 .secondary.menu {
   display: none !important;
@@ -86,7 +93,7 @@
     @media only screen and (max-width: @computerBreakpoint) {
       background-image: url("/assets/files/images/backgrounds/big-yellow-whiteboard-1600-tablet.jpg");
     }
-    @media only screen and (max-width: @tabletBreakpoint) {
+    @media only screen and (max-width: 440px) {
       background-image: url("/assets/files/images/backgrounds/big-yellow-whiteboard-850-mobile.jpg");
     }
   }
