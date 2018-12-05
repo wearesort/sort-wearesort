@@ -1,0 +1,61 @@
+# Configuration options for Netlify cms
+
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+publish_mode: editorial_workflow
+
+media_folder: assets/files/images/portraits
+
+collections:
+  - name: pages
+    label: Default Page
+    folder: _pages
+    extension: html
+    create: true
+    fields:
+      - {label: Page Title, name: title}
+      - {label: Description, name: description}
+      - {label: Slug, name: slug}
+      - {label: Permalink, name: permalink}
+      - {label: Body text, name: body, widget: markdown}
+
+  - name: team
+    label: Team member
+    folder: _team
+    format: frontmatter
+    create: true
+    fields:
+      - {label: Name, name: name}
+      - {label: Position, name: position}
+      - {label: Portrait image, name: image, widget: image}
+      - {label: Description, name: body}
+
+  - name: blog
+    label: Blog post
+    folder: _blog
+    create: true
+    format: frontmatter
+    slug: "blog/{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - label: Title
+        name: title
+      - label: Title image
+        name: image
+        widget: image
+      - label: Publish Date
+        name: date
+        widget: date
+      - label: Published
+        name: published
+        widget: boolean
+        default: true
+      - label: Author
+        name: author
+        type: relation
+        collection: team
+        searchField: name
+      - name: body
+        label: Body text
+        widget: markdown
