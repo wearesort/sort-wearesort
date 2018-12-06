@@ -457,3 +457,46 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
             box-shadow: none !important;
   }
 }
+
+/*-------------------
+ Quotes
+---------------------*/
+
+blockquote {
+  margin: 0;
+  padding: 1em 1.5em;
+  border-left: 1em solid #f7c216;
+}
+blockquote p {
+  font-style: italic;
+}
+blockquote cite {
+  font-style: normal;
+  font-weight: bold;
+}
+blockquote.dark,
+blockquote.solid {
+  border: none;
+  padding: 1.5em;
+}
+blockquote.dark {
+  background: #3c3c3b;
+  color: white;
+}
+blockquote.solid {
+  background: #f7c216;
+}
+
+/*-------------------
+ Formatting
+---------------------*/
+
+.shaded .content {
+  height: 100%;
+  background: rgba(0, 0, 0, 0.03);
+  padding: 1em 0.5em;
+}
+figcaption {
+  text-align: center;
+  font-style: italic;
+}
