@@ -81,6 +81,15 @@
   background-size: cover;
   background-position: center;
 }
+.stripe:nth-of-type(3) {
+  background-image: url("/assets/files/images/backgrounds/meeting-yellow.jpg");
+  background-color: #F7C216;
+}
+.stripe:nth-of-type(5) {
+  background-image: url("/assets/files/images/backgrounds/meeting.jpg");
+  background-color: #EFEFEF;
+}
+
 @media only screen and (max-width: @largestMobileScreen) {
   .stripe:nth-of-type(3) {
     margin-top: 5em;
@@ -107,29 +116,22 @@
     }
   }
 }
-.what-we-do,
-.how-we-work,
-.about-us,
-.our-team,
-.contact-us {
-  .stripe:nth-of-type(3) {
-    background-image: url("/assets/files/images/backgrounds/meeting-yellow.jpg");
-    background-color: #F7C216;
-  }
-  .stripe:nth-of-type(5) {
-    background-image: url("/assets/files/images/backgrounds/meeting.jpg");
-    background-color: #EFEFEF;
-  }
-}
+
 .privacy-policy {
   .stripe:nth-of-type(3) {
-    background-color: @black;
+    background: @black;
     color: @white;
     .ui.header {
       color: @white;
     }
   }
 }
+.fsa-preparing-incidents-for-eu-exit {
+  .stripe:nth-of-type(3) {
+    background-image: url("/assets/files/images/backgrounds/yellow-fruit.jpg");
+  }
+}
+
 
 /*-------------------
  Block
@@ -280,8 +282,18 @@ blockquote {
   height: 100%;
   background: rgba(0,0,0,0.03);
   padding: 1em 0.5em;
+  header {
+    text-align: center;
+    font-size: 4em;
+    line-height: 1em;
+    margin-bottom: 0.2em;
+  }
+}
+figure img {
+  margin: auto;
 }
 figcaption {
   text-align: center;
   font-style: italic;
+  margin-top: 1em;
 }

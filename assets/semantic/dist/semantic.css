@@ -866,6 +866,16 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
   background-position: center;
 }
 
+.stripe:nth-of-type(3) {
+  background-image: url("/assets/files/images/backgrounds/meeting-yellow.jpg");
+  background-color: #F7C216;
+}
+
+.stripe:nth-of-type(5) {
+  background-image: url("/assets/files/images/backgrounds/meeting.jpg");
+  background-color: #EFEFEF;
+}
+
 @media only screen and (max-width: 767px) {
   .stripe:nth-of-type(3) {
     margin-top: 5em;
@@ -901,31 +911,17 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
   color: #FFFFFF;
 }
 
-.what-we-do .stripe:nth-of-type(3),
-.how-we-work .stripe:nth-of-type(3),
-.about-us .stripe:nth-of-type(3),
-.our-team .stripe:nth-of-type(3),
-.contact-us .stripe:nth-of-type(3) {
-  background-image: url("/assets/files/images/backgrounds/meeting-yellow.jpg");
-  background-color: #F7C216;
-}
-
-.what-we-do .stripe:nth-of-type(5),
-.how-we-work .stripe:nth-of-type(5),
-.about-us .stripe:nth-of-type(5),
-.our-team .stripe:nth-of-type(5),
-.contact-us .stripe:nth-of-type(5) {
-  background-image: url("/assets/files/images/backgrounds/meeting.jpg");
-  background-color: #EFEFEF;
-}
-
 .privacy-policy .stripe:nth-of-type(3) {
-  background-color: #3C3C3B;
+  background: #3C3C3B;
   color: #FFFFFF;
 }
 
 .privacy-policy .stripe:nth-of-type(3) .ui.header {
   color: #FFFFFF;
+}
+
+.fsa-preparing-incidents-for-eu-exit .stripe:nth-of-type(3) {
+  background-image: url("/assets/files/images/backgrounds/yellow-fruit.jpg");
 }
 
 /*-------------------
@@ -1107,9 +1103,21 @@ blockquote.solid {
   padding: 1em 0.5em;
 }
 
+.shaded .content header {
+  text-align: center;
+  font-size: 4em;
+  line-height: 1em;
+  margin-bottom: 0.2em;
+}
+
+figure img {
+  margin: auto;
+}
+
 figcaption {
   text-align: center;
   font-style: italic;
+  margin-top: 1em;
 }
 /*!
  * # Semantic UI 2.4.0 - Button

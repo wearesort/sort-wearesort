@@ -3,13 +3,28 @@
   <div class="ui grid">
     <div class="three column row shaded">
       <div class="column">
-        <div class="content">{{ include.text-1 }}</div>
+        <div class="content">
+          {% if include.icon-1 %}
+          <header><i class="{{ include.icon-1 }} icon"></i></header>
+          {% endif %}
+          {{ include.text-1 }}
+        </div>
       </div>
       <div class="column">
-        <div class="content">{{ include.text-2 }}</div>
+        <div class="content">
+          {% if include.icon-2 %}
+          <header><i class="{{ include.icon-2 }} icon"></i></header>
+          {% endif %}
+          {{ include.text-2 }}
+        </div>
       </div>
       <div class="column">
-        <div class="content">{{ include.text-3 }}</div>
+        <div class="content">
+          {% if include.icon-3 %}
+          <header><i class="{{ include.icon-3 }} icon"></i></header>
+          {% endif %}
+          {{ include.text-3 }}
+        </div>
       </div>
     </div>
   </div>
