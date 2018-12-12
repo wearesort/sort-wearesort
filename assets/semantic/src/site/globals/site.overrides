@@ -257,6 +257,7 @@ blockquote {
   border-left: 1em solid #f7c216;
   p {
     font-style: italic;
+    font-size: @h3;
   }
   cite {
     font-style: normal;
