@@ -5480,6 +5480,11 @@ figcaption {
 /*******************************
          Site Overrides
 *******************************/
+
+a.card,
+a.ui.card {
+  text-decoration: none;
+}
 /*!
  * # Semantic UI 2.4.0 - Container
  * http://github.com/semantic-org/semantic-ui/
