@@ -12955,6 +12955,10 @@ i.icon.circled-9.custom:before {
   content: "\f100";
 }
 
+i.icon.collaboration.custom:before {
+  content: "\f126";
+}
+
 i.icon.cycle-arrows.custom:before {
   content: "\f109";
 }
@@ -12963,12 +12967,24 @@ i.icon.developer.custom:before {
   content: "\f119";
 }
 
+i.icon.earth-globe.custom:before {
+  content: "\f11f";
+}
+
 i.icon.email.custom:before {
   content: "\f10d";
 }
 
 i.icon.exchange.custom:before {
   content: "\f114";
+}
+
+i.icon.focus.custom:before {
+  content: "\f124";
+}
+
+i.icon.goal.custom:before {
+  content: "\f12a";
 }
 
 i.icon.growth-graph.custom:before {
@@ -12987,6 +13003,14 @@ i.icon.increasing-graph.custom:before {
   content: "\f10a";
 }
 
+i.icon.language.custom:before {
+  content: "\f125";
+}
+
+i.icon.learn-more.custom:before {
+  content: "\f129";
+}
+
 i.icon.linkedin.custom:before {
   content: "\f115";
 }
@@ -12995,8 +13019,24 @@ i.icon.location.custom:before {
   content: "\f10f";
 }
 
+i.icon.magnifying-glass.custom:before {
+  content: "\f122";
+}
+
+i.icon.multichannel.custom:before {
+  content: "\f127";
+}
+
 i.icon.neural-network.custom:before {
   content: "\f11d";
+}
+
+i.icon.no-entry.custom:before {
+  content: "\f121";
+}
+
+i.icon.path.custom:before {
+  content: "\f12d";
 }
 
 i.icon.person-location.custom:before {
@@ -13023,8 +13063,24 @@ i.icon.talk-bubble.custom:before {
   content: "\f112";
 }
 
+i.icon.team.custom:before {
+  content: "\f12c";
+}
+
+i.icon.teamwork.custom:before {
+  content: "\f12b";
+}
+
+i.icon.test-tube.custom:before {
+  content: "\f123";
+}
+
 i.icon.tick-box.custom:before {
   content: "\f11b";
+}
+
+i.icon.timer.custom:before {
+  content: "\f120";
 }
 
 i.icon.trophy.custom:before {
@@ -13033,6 +13089,10 @@ i.icon.trophy.custom:before {
 
 i.icon.twitter.custom:before {
   content: "\f116";
+}
+
+i.icon.workflow.custom:before {
+  content: "\f128";
 }
 /*!
  * # Semantic UI 2.4.0 - Image
