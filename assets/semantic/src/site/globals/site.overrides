@@ -282,7 +282,7 @@ blockquote {
 .shaded .content {
   height: 100%;
   background: rgba(0,0,0,0.03);
-  padding: 1em 0.5em;
+  padding: 1em;
   header {
     text-align: center;
     font-size: 4em;

@@ -490,7 +490,7 @@ blockquote.solid {
 .shaded .content {
   height: 100%;
   background: rgba(0, 0, 0, 0.03);
-  padding: 1em 0.5em;
+  padding: 1em;
 }
 .shaded .content header {
   text-align: center;
