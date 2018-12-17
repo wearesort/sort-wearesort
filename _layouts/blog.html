@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<div class="stripe">
+  <div class="ui container">
+    {% include block-2.html
+      title=page.title
+    %}
+  </div>
+</div>
+
+<div class="ui meta grid text container row">
+  <div class="eight wide column">{{ page.author }}</div>
+  <div class="eight wide column right aligned">{{ page.date | date_to_string }}</div>
+</div>
+<div class="ui main text container">
+  {{ content }}
+</div>
+
+<div class="stripe">
+  <div class="ui text container">
+    {% include block-8.html
+    title="Need help with a project?"
+    brand="primary"
+    url="/contact-us/"
+    cta="Get in touch"
+    %}
+  </div>
+</div>

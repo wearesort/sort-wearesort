@@ -38,8 +38,8 @@ url: https://wearesort.co.uk
 collections:
   team:
     output: false
-  blog:
-    permalink: /blog/:slug
+  our-blog:
+    output: true
   case:
     permalink: /case-study/:slug
 
@@ -47,4 +47,8 @@ defaults:
   - scope:
       path: ""
     values:
-      layout: default
+      layout: "default"
+  - scope:
+      path: "our-blog"
+    values:
+      layout: "blog"

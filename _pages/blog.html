@@ -1,0 +1,46 @@
+---
+layout: default
+title: Our blog - Sort
+description: Our team is full of all sorts. We’ve got experts in consulting, digital, design and more. Collectively, we’ve worked with some of the biggest and best brands in the world.
+slug: our-blog
+permalink: /our-blog/
+---
+<div class="stripe">
+  <div class="ui container">
+    {% include block-2.html
+      title="Our blog"
+    %}
+  </div>
+</div>
+
+<div class="ui main container">
+  <div class="ui four doubling cards">
+    {% for post in site.our-blog %}
+    <a class="card" href="{{ post.url }}">
+      <div class="image">
+        <img src="{{ post.image }}" alt="{{ post.title }}">
+      </div>
+      <div class="content">
+        <span class="header">{{ post.title }}</span>
+        <div class="meta">
+          <span class="date">{{ post.date }}</span>
+        </div>
+        <div class="description">
+          {{ post.intro }}
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="stripe">
+  <div class="ui text container">
+    {% include block-8.html
+    title="Need help with a project?"
+    brand="primary"
+    url="/contact-us/"
+    cta="Get in touch"
+    %}
+  </div>
+</div>

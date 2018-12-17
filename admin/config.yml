@@ -34,10 +34,10 @@ collections:
 
   - name: blog
     label: Blog post
-    folder: _blog
+    folder: _our-blog
     create: true
     format: frontmatter
-    slug: "blog/{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{title}}"
     fields:
       - label: Title
         name: title
@@ -57,6 +57,9 @@ collections:
         collection: team
         searchField: name
         valueField: name
+      - name: intro
+        label: Brief introduction
+        widget: markdown
       - name: body
         label: Body text
         widget: markdown
