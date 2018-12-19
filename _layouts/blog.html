@@ -14,7 +14,8 @@ layout: default
   <div class="eight wide column right aligned">{{ page.date | date_to_string }}</div>
 </div>
 <div class="ui main text container">
-  {{ content }}
+  {% if page.intro %}<div class="block">{{ page.intro }}</div>{% endif %}
+  <div class="block">{{ content }}</div>
 </div>
 
 <div class="stripe">
