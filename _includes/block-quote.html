@@ -1,0 +1,7 @@
+<div class="block">
+  <blockquote{% if include.variant %} class="{{ include.variant }}"{% endif %}>
+    {% if include.title %}<h3>{{ include.title }}</h3>{% endif %}
+    <p>“{{ include.quote }}”</p>
+    <cite>{{ include.cite }}</cite>
+  </blockquote>
+</div>

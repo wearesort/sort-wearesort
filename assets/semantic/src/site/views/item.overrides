@@ -1,3 +1,8 @@
 /*******************************
     User Variable Overrides
 *******************************/
+@media only screen and (max-width: 991px) {
+  .ui.menu .item {
+    padding: 2em 0.725em;
+  }
+}

@@ -1,3 +1,7 @@
 /*******************************
          Site Overrides
 *******************************/
+
+a.card, a.ui.card {
+  text-decoration: none;
+}
