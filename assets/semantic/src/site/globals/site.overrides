@@ -296,6 +296,14 @@ blockquote {
     margin-bottom: 0.2em;
   }
 }
+.ui.meta.container {
+  border-bottom: 1px solid #f7c216;
+  margin-top: 0px;
+  .eight.wide.column {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
 figure img {
   margin: auto;
 }

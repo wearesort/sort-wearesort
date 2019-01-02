@@ -876,6 +876,18 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
   background-color: #EFEFEF;
 }
 
+@media only screen and (max-width: 992px) {
+  .stripe.bottom-cta {
+    background-image: url("https://res.cloudinary.com/wearesort/image/upload/c_fill,g_west,h_600,w_1600/v1545239775/backgrounds/meeting.jpg");
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .stripe.bottom-cta {
+    background-image: url("https://res.cloudinary.com/wearesort/image/upload/c_fill,g_xy_center,h_850,w_850,x_560,y_0/v1545239775/backgrounds/meeting.jpg");
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .stripe:nth-of-type(3) {
     margin-top: 5em;
@@ -1109,6 +1121,16 @@ blockquote.solid {
   font-size: 4em;
   line-height: 1em;
   margin-bottom: 0.2em;
+}
+
+.ui.meta.container {
+  border-bottom: 1px solid #f7c216;
+  margin-top: 0px;
+}
+
+.ui.meta.container .eight.wide.column {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 figure img {

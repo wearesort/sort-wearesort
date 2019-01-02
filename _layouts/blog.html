@@ -10,8 +10,8 @@ layout: default
 </div>
 
 <div class="ui meta grid text container row">
-  <div class="eight wide column">{{ page.author }}</div>
-  <div class="eight wide column right aligned">{{ page.date | date_to_string }}</div>
+  <div class="eight wide column"><i class="user icon"></i>&nbsp;{{ page.author }}</div>
+  <div class="eight wide column right aligned">{{ page.date | date_to_string }}&nbsp;<i class="calendar icon"></i></div>
 </div>
 <div class="ui main text container">
   {% if page.intro %}<div class="block">{{ page.intro }}</div>{% endif %}
