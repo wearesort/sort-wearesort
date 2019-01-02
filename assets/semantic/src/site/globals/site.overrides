@@ -85,9 +85,15 @@
   background-image: url("/assets/files/images/backgrounds/meeting-yellow.jpg");
   background-color: #F7C216;
 }
-.stripe:nth-of-type(5) {
-  background-image: url("/assets/files/images/backgrounds/meeting.jpg");
+.stripe.bottom-cta {
+  background-image: url("https://res.cloudinary.com/wearesort/image/upload/v1545239775/backgrounds/meeting.jpg");
   background-color: #EFEFEF;
+  @media only screen and (max-width: @computerBreakpoint) {
+    background-image: url("https://res.cloudinary.com/wearesort/image/upload/c_fill,g_west,h_600,w_1600/v1545239775/backgrounds/meeting.jpg");
+  }
+  @media only screen and (max-width: 440px) {
+    background-image: url("https://res.cloudinary.com/wearesort/image/upload/c_fill,g_xy_center,h_850,w_850,x_560,y_0/v1545239775/backgrounds/meeting.jpg");
+  }
 }
 
 @media only screen and (max-width: @largestMobileScreen) {
