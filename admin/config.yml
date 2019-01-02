@@ -13,29 +13,6 @@ media_library:
     api_key: 193484517256477
 
 collections:
-  - name: pages
-    label: Default Page
-    folder: _pages
-    extension: html
-    create: true
-    fields:
-      - {label: Page Title, name: title}
-      - {label: Description, name: description}
-      - {label: Slug, name: slug}
-      - {label: Permalink, name: permalink}
-      - {label: Body text, name: body, widget: markdown}
-
-  - name: team
-    label: Team member
-    folder: _team
-    format: frontmatter
-    create: true
-    fields:
-      - {label: Name, name: name}
-      - {label: Position, name: position}
-      - {label: Portrait image, name: image, widget: image}
-      - {label: Description, name: body, widget: markdown}
-
   - name: blog
     label: Blog post
     folder: _our-blog
@@ -67,3 +44,26 @@ collections:
       - name: body
         label: Body text
         widget: markdown
+
+  - name: team
+    label: Team member
+    folder: _team
+    format: frontmatter
+    create: true
+    fields:
+      - {label: Name, name: name}
+      - {label: Position, name: position}
+      - {label: Portrait image, name: image, widget: image}
+      - {label: Description, name: body, widget: markdown}
+
+  - name: pages
+    label: Default Page
+    folder: _pages
+    extension: html
+    create: true
+    fields:
+      - {label: Page Title, name: title}
+      - {label: Description, name: description}
+      - {label: Slug, name: slug}
+      - {label: Permalink, name: permalink}
+      - {label: Body text, name: body, widget: markdown}
