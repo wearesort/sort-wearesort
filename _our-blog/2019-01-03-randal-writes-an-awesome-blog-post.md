@@ -26,6 +26,8 @@ Chuck a bit of paragraph text in down here right after the H1 for good measure
 
 Then spice up the mix with another bit of paragraph text
 
+{% include icon-header.html icon="tick-box custom" label="label here" %}
+
 If we're feeling really saucy, let's add a bunch of:
 
 * Unordered list items
@@ -45,5 +47,7 @@ Look, I can even add an image to the body:
 That's like having a kick ass tattoo, right on the body!
 
 All of this was done in a rich text editor, not needing to use markdown at all (though I can see that little toggle selector tempting me like a big red launch button).
+
+> This part is a blockquote
 
 Overall Martin, je suis impressed! Nice work mate.
