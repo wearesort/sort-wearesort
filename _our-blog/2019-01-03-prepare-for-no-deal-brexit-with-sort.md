@@ -5,19 +5,13 @@ image: >-
 date: 2019-01-03T09:45:55.830Z
 published: true
 author: Andy Tinker-Switzer
-intro: >-
-  At Sort, we’ve proven that our unique outcome delivery approach is ideally
-  suited for preparing organisations for the potential impacts of Brexit well
-  before March 2019 (be it hard/soft/managed/unmanaged).
-
-
-  For the past 9 months, we have been helping teams within a Central Government
-  department prepare critical operations for the potential impacts of a
-  “no-deal” Brexit using this approach.
-
-
-  Here’s what this has involved…
 ---
+At Sort, we’ve proven that our unique outcome delivery approach is ideally suited for preparing organisations for the potential impacts of Brexit well before March 2019 (be it hard/soft/managed/unmanaged).
+
+For the past 9 months, we have been helping teams within a Central Government department prepare critical operations for the potential impacts of a “no-deal” Brexit using this approach.
+
+Here’s what this has involved…
+
 ## Planning for uncertainty
 
 Using our agile, outcome-lead approach, we collaborated with the department’s team and engaged with relevant local stakeholders to understand their needs for maintaining their operational capability when the UK leaves the EU.
