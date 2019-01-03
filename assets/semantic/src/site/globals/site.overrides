@@ -296,6 +296,10 @@ blockquote {
     margin-bottom: 0.2em;
   }
 }
+.intro {
+  white-space: pre-wrap;
+  font-weight: bold;
+}
 .ui.meta.container {
   border-bottom: 1px solid #f7c216;
   margin-top: 0px;
