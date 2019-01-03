@@ -19,6 +19,9 @@ linkedin: wearesort
 # Build settings
 markdown: kramdown
 
+tile_image_find: /upload/
+tile_image_transform: /upload/c_fill,h_345,w_345/
+
 # Build inclusions
 include: ["_pages","_redirects"]
 
