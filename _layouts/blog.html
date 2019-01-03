@@ -15,6 +15,7 @@ layout: default
 </div>
 <div class="ui main text container">
   {% if page.intro %}<div class="block intro">{{ page.intro }}</div>{% endif %}
+  {% if page.image %}<img class="ui fluid image block" src="{{ page.image }}" alt="{{ page.title }}">{% endif %}
   <div class="block">{{ content }}</div>
 </div>
 
