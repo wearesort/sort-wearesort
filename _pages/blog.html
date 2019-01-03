@@ -26,9 +26,7 @@ permalink: /our-blog/
           <span class="date">{{ post.date | date_to_string }}</span>
         </div>
       </div>
-      <div class="extra content">
-        <i class="user icon"></i>{{ post.author }}
-      </div>
+      <div class="extra content">{{ post.author }}</div>
     </a>
     {% endfor %}
   </div>

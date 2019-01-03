@@ -283,6 +283,25 @@ blockquote {
 }
 
 /*-------------------
+ Blog
+---------------------*/
+.our-blog {
+  img.title {
+    margin: 2em 0;
+  }
+  .meta.container {
+    line-height: 2em;
+    padding-bottom: 1em;
+    .name {
+      font-weight: bold;
+    }
+    .three.wide.column {
+      padding-left: 0;
+    }
+  }
+}
+
+/*-------------------
  Formatting
 ---------------------*/
 .shaded .content {

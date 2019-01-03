@@ -1107,6 +1107,27 @@ blockquote.solid {
 }
 
 /*-------------------
+ Blog
+---------------------*/
+
+.our-blog img.title {
+  margin: 2em 0;
+}
+
+.our-blog .meta.container {
+  line-height: 2em;
+  padding-bottom: 1em;
+}
+
+.our-blog .meta.container .name {
+  font-weight: bold;
+}
+
+.our-blog .meta.container .three.wide.column {
+  padding-left: 0;
+}
+
+/*-------------------
  Formatting
 ---------------------*/
 
