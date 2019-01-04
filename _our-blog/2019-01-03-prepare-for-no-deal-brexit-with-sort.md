@@ -18,7 +18,7 @@ Using our agile, outcome-lead approach, we collaborated with the department’s 
 
 Focussing on operational outcomes resulted in us implementing quick, lightweight technical and non-technical solutions to validate whether or not they could achieve the desired outcomes.
 
-**Desired outcome:** _ensuring these Central Government department teams could continue operating business-as-usual after 29 March 2019 in a “no-deal” Brexit scenario._
+{% include block-quote.html quote="Ensuring these Central Government department teams could continue operating business-as-usual after 29 March 2019 in a “no-deal” Brexit scenario." title="Desired outcome" %}
 
 Within just 2 weeks, we delivered working software very quickly and were validating these solutions through our cycle of real user testing, measuring improvements, learning from them and iterating.
 
