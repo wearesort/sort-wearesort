@@ -91,6 +91,59 @@
       );
     }
   });
+
+  CMS.registerEditorComponent({
+    // Internal id of the component
+    id: "full_quote",
+    // Visible label
+    label: "Full Blockquote",
+    // Fields the user need to fill out when adding an instance of the component
+    fields: [
+      {name: 'quote', label: 'Quote', widget: 'string', default: 'Quote'},
+      {name: 'title', label: 'Title', widget: 'string'},
+      {name: 'cite', label: 'Citation', widget: 'string'},
+      {name: 'variant', label: 'Variant', widget: 'select', default: '', options: [
+        { label: "Default", value: ""},
+        { label: "Dark", value: "dark"},
+        { label: "Solid Colour", value: "solid"},
+      ]},
+    ],
+    // Pattern to identify a block as being an instance of this component
+    pattern: /{% include block-quote\.html quote="(?<quote>.*?)"( title="(?<title>.*?)")?( cite="(?<cite>.*?)")?( variant="(?<variant>.*?)")? %}/,
+
+    // Function to extract data elements from the regexp match
+    fromBlock: function(match) {
+      console.log(match);
+      return {
+        quote: match['groups']['quote'],
+        title: match['groups']['title'],
+        cite: match['groups']['cite'],
+        variant: match['groups']['variant'],
+      };
+    },
+    // Function to create a text block from an instance of this component
+    toBlock: function(obj) {
+      markup = '{% include block-quote.html quote="' + obj.quote + '"';
+      if (obj.title) { markup += ' title="' + obj.title + '"'; }
+      if (obj.cite) { markup += ' cite="' + obj.cite + '"'; }
+      if (obj.variant) { markup += ' variant="' + obj.variant + '"'; }
+      return markup + ' %}';
+    },
+    // Preview output for this component. Can either be a string or a React component
+    // (component gives better render performance)
+    toPreview: function(obj) {
+      console.log(obj);
+      markup = '<blockquote';
+      if (obj.variant) { markup += ' class="' + obj.variant + '"'; }
+      markup += '>';
+      if (obj.title) { markup += '<h3>' + obj.title + '</h3>'; }
+      markup += '<p>“' + obj.quote + '”</p>';
+      if (obj.cite) { markup += '<cite>' + obj.cite + '</cite>'; }
+      markup += '</blockquote>';
+      return markup;
+    }
+  });
+
   </script>
 </body>
 </html>
