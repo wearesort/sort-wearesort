@@ -5,14 +5,10 @@ image: >-
 date: 2019-01-03T07:06:33.334Z
 published: true
 author: Randal Whitmore
-intro: >-
-  Here's an introduction to my awesome blog post on awesomeness from awesome
-  city!
-
-
-  Look out, there's some tasty magic coming up in the body!
 ---
+Here's an introduction to my awesome blog post on awesomeness from awesome city!
 
+Look out, there's some tasty magic coming up in the body!
 
 Here's some body text, because what is a head without a body in a world of awesomeness???
 

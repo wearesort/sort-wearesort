@@ -38,9 +38,6 @@ collections:
         collection: team
         searchField: name
         valueField: name
-      - name: intro
-        label: Brief introduction
-        widget: markdown
       - name: body
         label: Body text
         widget: markdown
