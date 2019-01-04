@@ -498,7 +498,7 @@ blockquote.solid {
 ---------------------*/
 
 .our-blog img.title {
-  margin: 2em 0;
+  margin: 1em 0 -1.5em;
 }
 .our-blog .meta.container {
   line-height: 2em;
