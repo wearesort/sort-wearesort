@@ -258,7 +258,7 @@
  Quotes
 ---------------------*/
 blockquote {
-  margin: 0;
+  margin-left: 0;
   padding: 1em 1.5em;
   border-left: 1em solid #f7c216;
   p {
