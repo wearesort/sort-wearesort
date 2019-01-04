@@ -12,6 +12,8 @@ intro: >-
 
   Look out, there's some tasty magic coming up in the body!
 ---
+
+
 Here's some body text, because what is a head without a body in a world of awesomeness???
 
 **Bolded text**
@@ -47,3 +49,7 @@ That's like having a kick ass tattoo, right on the body!
 All of this was done in a rich text editor, not needing to use markdown at all (though I can see that little toggle selector tempting me like a big red launch button).
 
 Overall Martin, je suis impressed! Nice work mate.
+
+{% include block-quote.html quote="Quote" title="This is the title for the quopte" cite="And a citation" variant="solid" %}
+
+{% include icon-header.html icon="circled-2 custom" label="Icon tghingy" %}
