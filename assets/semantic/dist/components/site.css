@@ -500,6 +500,11 @@ blockquote.solid {
 .our-blog img.title {
   margin: 1em 0 -1.5em;
 }
+@media only screen and (max-width: 767px) {
+  .our-blog img.title {
+    margin-top: 5.5em;
+  }
+}
 .our-blog .meta.container {
   line-height: 2em;
   padding-bottom: 1em;

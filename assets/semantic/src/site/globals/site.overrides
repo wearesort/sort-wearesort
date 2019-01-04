@@ -288,6 +288,9 @@ blockquote {
 .our-blog {
   img.title {
     margin: 1em 0 -1.5em;
+    @media only screen and (max-width: @largestMobileScreen) {
+      margin-top: 5.5em;
+    }
   }
   .meta.container {
     line-height: 2em;
