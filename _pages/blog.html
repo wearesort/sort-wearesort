@@ -15,26 +15,24 @@ permalink: /our-blog/
 
 <div class="ui main container">
   <div class="ui four doubling cards">
-    {% for post in site.our-blog %}
+    {% for post in site.our-blog reversed %}
     <a class="card" href="{{ post.url }}">
       <div class="image">
-        <img src="{{ post.image }}" alt="{{ post.title }}">
+        <img src="{{ post.image | replace: site.tile_image_find, site.tile_image_transform }}" alt="{{ post.title }}">
       </div>
       <div class="content">
         <span class="header">{{ post.title }}</span>
         <div class="meta">
           <span class="date">{{ post.date | date_to_string }}</span>
         </div>
-        <div class="description">
-          {{ post.intro }}
-        </div>
       </div>
+      <div class="extra content">{{ post.author }}</div>
     </a>
     {% endfor %}
   </div>
 </div>
 
-<div class="stripe">
+<div class="stripe bottom-cta">
   <div class="ui text container">
     {% include block-8.html
     title="Need help with a project?"

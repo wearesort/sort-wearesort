@@ -9,5 +9,139 @@
 <body>
   <!-- Include the script that builds the page and powers Netlify CMS -->
   <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+  <script>
+  CMS.registerPreviewStyle("/assets/semantic/dist/semantic.min.css");
+
+  CMS.registerEditorComponent({
+    // Internal id of the component
+    id: "icon_header",
+    // Visible label
+    label: "Icon Header",
+    // Fields the user need to fill out when adding an instance of the component
+    fields: [
+      {name: 'icon', label: 'Icon name', widget: 'select', options: [
+        { label: "1st", value: "1st custom"},
+        { label: "API", value: "api custom"},
+        { label: "Circled 2", value: "circled-2 custom"},
+        { label: "Circled 3", value: "circled-3 custom"},
+        { label: "Circled 4", value: "circled-4 custom"},
+        { label: "Circled 5", value: "circled-5 custom"},
+        { label: "Circled 6", value: "circled-6 custom"},
+        { label: "Circled 7", value: "circled-7 custom"},
+        { label: "Circled 8", value: "circled-8 custom"},
+        { label: "Circled 9", value: "circled-9 custom"},
+        { label: "Collaboration", value: "collaboration custom"},
+        { label: "Cycle", value: "cycle-arrows custom"},
+        { label: "Developer", value: "developer custom"},
+        { label: "Earth", value: "earth-globe custom"},
+        { label: "Email", value: "email custom"},
+        { label: "Exchange", value: "exchange custom"},
+        { label: "Focus", value: "focus custom"},
+        { label: "Goal", value: "goal custom"},
+        { label: "Growth", value: "growth-graph custom"},
+        { label: "Handshake", value: "business-handshake custom"},
+        { label: "Idea", value: "idea custom"},
+        { label: "Idea light", value: "idea-light custom"},
+        { label: "Increasing", value: "increasing-graph custom"},
+        { label: "Language", value: "language custom"},
+        { label: "Learning", value: "learn-more custom"},
+        { label: "LinkedIn", value: "linkedin custom"},
+        { label: "Location", value: "location custom"},
+        { label: "Magnify", value: "magnifying-glass custom"},
+        { label: "Multichannel", value: "multichannel custom"},
+        { label: "Neural network", value: "neural-network custom"},
+        { label: "No entry", value: "no-entry custom"},
+        { label: "Path", value: "path custom"},
+        { label: "Person location", value: "person-location custom"},
+        { label: "Phone", value: "phone custom"},
+        { label: "Process", value: "process custom"},
+        { label: "Show location", value: "show-location custom"},
+        { label: "Source code", value: "source-code custom"},
+        { label: "Talk", value: "talk-bubble custom"},
+        { label: "Team", value: "team custom"},
+        { label: "Teamwork", value: "teamwork custom"},
+        { label: "Testube", value: "test-tube custom"},
+        { label: "Tick box", value: "tick-box custom"},
+        { label: "Timer", value: "timer custom"},
+        { label: "Trophy", value: "trophy custom"},
+        { label: "Twitter", value: "twitter custom"},
+        { label: "Workflow", value: "workflow custom"},
+      ]},
+      {name: 'label', label: 'Header label', widget: 'string'}
+    ],
+    // Pattern to identify a block as being an instance of this component
+    pattern: /{% include icon-header\.html icon="([ \S]+)" label="([ \S]+)" %}/,
+
+    // Function to extract data elements from the regexp match
+    fromBlock: function(match) {
+      return {
+        icon: match[1],
+        label: match[2],
+      };
+    },
+    // Function to create a text block from an instance of this component
+    toBlock: function(obj) {
+      return '{% include icon-header.html icon="' + obj.icon + '" label="' + obj.label + '" %}';
+    },
+    // Preview output for this component. Can either be a string or a React component
+    // (component gives better render performance)
+    toPreview: function(obj) {
+      return (
+        '<h3 class="ui header"><i class="' + obj.icon + ' icon"></i><div class="content">' + obj.label + '</div></h3>'
+      );
+    }
+  });
+
+  CMS.registerEditorComponent({
+    // Internal id of the component
+    id: "full_quote",
+    // Visible label
+    label: "Full Blockquote",
+    // Fields the user need to fill out when adding an instance of the component
+    fields: [
+      {name: 'quote', label: 'Quote', widget: 'string', default: 'Quote'},
+      {name: 'title', label: 'Title', widget: 'string'},
+      {name: 'cite', label: 'Citation', widget: 'string'},
+      {name: 'variant', label: 'Variant', widget: 'select', default: '', options: [
+        { label: "Default", value: ""},
+        { label: "Dark", value: "dark"},
+        { label: "Solid Colour", value: "solid"},
+      ]},
+    ],
+    // Pattern to identify a block as being an instance of this component
+    pattern: /{% include block-quote\.html quote="(?<quote>.*?)"( title="(?<title>.*?)")?( cite="(?<cite>.*?)")?( variant="(?<variant>.*?)")? %}/,
+
+    // Function to extract data elements from the regexp match
+    fromBlock: function(match) {
+      return {
+        quote: match['groups']['quote'],
+        title: match['groups']['title'],
+        cite: match['groups']['cite'],
+        variant: match['groups']['variant'],
+      };
+    },
+    // Function to create a text block from an instance of this component
+    toBlock: function(obj) {
+      markup = '{% include block-quote.html quote="' + obj.quote + '"';
+      if (obj.title) { markup += ' title="' + obj.title + '"'; }
+      if (obj.cite) { markup += ' cite="' + obj.cite + '"'; }
+      if (obj.variant) { markup += ' variant="' + obj.variant + '"'; }
+      return markup + ' %}';
+    },
+    // Preview output for this component. Can either be a string or a React component
+    // (component gives better render performance)
+    toPreview: function(obj) {
+      markup = '<blockquote';
+      if (obj.variant) { markup += ' class="' + obj.variant + '"'; }
+      markup += '>';
+      if (obj.title) { markup += '<h3>' + obj.title + '</h3>'; }
+      markup += '<p>“' + obj.quote + '”</p>';
+      if (obj.cite) { markup += '<cite>' + obj.cite + '</cite>'; }
+      markup += '</blockquote>';
+      return markup;
+    }
+  });
+
+  </script>
 </body>
 </html>

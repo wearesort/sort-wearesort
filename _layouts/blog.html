@@ -1,20 +1,27 @@
 ---
 layout: default
 ---
-<div class="stripe">
-  <div class="ui container">
-    {% include block-2.html
-      title=page.title
-    %}
+{% assign author = site.team | where:"name", page.author | first %}
+<div class="ui text container">
+  {% if page.image %}<img class="ui fluid title image" src="{{ page.image }}" alt="{{ page.title }}">{% endif %}
+  <h1>{{ page.title }}</h1>
+  <div class="ui meta grid container">
+    <div class="three wide column"><img class="ui fluid image" src="{{ author.image }}" alt="{{ author.name }}"></div>
+    <div class="thirteen wide middle aligned column">
+      <div class="name">By {{ page.author }}</div>
+      <div>{{ page.date | date_to_string }}</div>
+    </div>
   </div>
 </div>
+<<<<<<< HEAD
 
 <div class="ui meta grid text container row">
   <div class="eight wide column"><i class="user icon"></i>&nbsp;{{ page.author }}</div>
   <div class="eight wide column right aligned">{{ page.date | date_to_string }}&nbsp;<i class="calendar icon"></i></div>
 </div>
+=======
+>>>>>>> staging
 <div class="ui main text container">
-  {% if page.intro %}<div class="block">{{ page.intro }}</div>{% endif %}
   <div class="block">{{ content }}</div>
 </div>
 
