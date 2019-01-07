@@ -103,22 +103,42 @@
 }
 .home {
   .stripe:nth-of-type(3) {
-    background-image: url("/assets/files/images/backgrounds/big-yellow-whiteboard-2880-desktop.jpg");
+
+    background-image: url("https://res.cloudinary.com/wearesort/image/upload/v1545239776/backgrounds/whiteboard.jpg");
     background-color: #F7C216;
     @media only screen and (max-width: @computerBreakpoint) {
-      background-image: url("/assets/files/images/backgrounds/big-yellow-whiteboard-1600-tablet.jpg");
+      background-image: url("https://res.cloudinary.com/wearesort/image/upload/c_fill,g_west,h_600,w_1600/v1545239776/backgrounds/whiteboard.jpg");
     }
     @media only screen and (max-width: 440px) {
-      background-image: url("/assets/files/images/backgrounds/big-yellow-whiteboard-850-mobile.jpg");
+      background-image: url("https://res.cloudinary.com/wearesort/image/upload/c_fill,h_850,w_850/v1545239776/backgrounds/whiteboard.jpg");
     }
   }
-  .stripe:nth-of-type(5),
-  .stripe:nth-of-type(7) {
-    background-image: url("/assets/files/images/backgrounds/stickies.jpg");
+  .stripe.stickies {
+    background-image: url("https://res.cloudinary.com/wearesort/image/upload/v1545239775/backgrounds/stickies.jpg");
     background-color: #3C3C3B;
     color: @white;
     .ui.header {
       color: @white;
+    }
+    @media only screen and (max-width: @computerBreakpoint) {
+      background-image: url("https://res.cloudinary.com/wearesort/image/upload/c_fill,h_600,w_1600/v1545239775/backgrounds/stickies.jpg");
+    }
+    @media only screen and (max-width: 440px) {
+      background-image: url("https://res.cloudinary.com/wearesort/image/upload/c_fill,h_850,w_850/v1545239775/backgrounds/stickies.jpg");
+    }
+  }
+  .stripe.brexit {
+    background-image: url("https://res.cloudinary.com/wearesort/image/upload/v1546861408/backgrounds/black-brexit.jpg");
+    background-color: #3C3C3B;
+    color: @white;
+    .ui.header {
+      color: @white;
+    }
+    @media only screen and (max-width: @computerBreakpoint) {
+      background-image: url("https://res.cloudinary.com/wearesort/image/upload/c_fill,h_600,w_1600/v1546861408/backgrounds/black-brexit.jpg");
+    }
+    @media only screen and (max-width: 440px) {
+      background-image: url("https://res.cloudinary.com/wearesort/image/upload/c_fill,h_850,w_850/v1546861408/backgrounds/black-brexit.jpg");
     }
   }
 }
