@@ -21,6 +21,8 @@ markdown: kramdown
 
 tile_image_find: /upload/
 tile_image_transform: /upload/c_fill,h_345,w_345/
+header_image_transform: /upload/w_1400/
+graph_image_transform: /upload/c_fill,w_1200,h_627/
 
 # Build inclusions
 include: ["_pages","_redirects"]

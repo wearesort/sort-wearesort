@@ -3,7 +3,7 @@ layout: default
 ---
 {% assign author = site.team | where:"name", page.author | first %}
 <div class="ui text container">
-  {% if page.image %}<img class="ui fluid title image" src="{{ page.image }}" alt="{{ page.title }}">{% endif %}
+  {% if page.image %}<img class="ui fluid title image" src="{{ page.image | replace: site.tile_image_find, site.header_image_transform }}" alt="{{ page.title }}">{% endif %}
   <h1>{{ page.title }}</h1>
   <div class="ui meta grid container">
     <div class="three wide column"><img class="ui fluid image" src="{{ author.image }}" alt="{{ author.name }}"></div>

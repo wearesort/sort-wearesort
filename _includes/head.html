@@ -26,7 +26,11 @@
   <!-- Open Graph -->
   <meta name="og:title" content="{{ page.title }}">
   <meta name="og:description" content="{{ page.description }}">
+  {% if page.image %}
+  <meta name="og:image" content="{{ page.image | replace: site.tile_image_find, site.graph_image_transform}}">
+  {% else %}
   <meta name="og:image" content="{{ site.url }}/assets/files/images/brand/card.jpg">
+  {% endif %}
   {% if page.slug == 'home' %}
   <meta name="og:url" content="https://www.wearesort.co.uk/" />
   <link rel="canonical" href="https://www.wearesort.co.uk/" />

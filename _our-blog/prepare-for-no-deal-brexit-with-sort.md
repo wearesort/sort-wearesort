@@ -1,7 +1,7 @@
 ---
 title: Prepare for “no-deal” Brexit with Sort
 image: >-
-  https://res.cloudinary.com/wearesort/image/upload/v1546508952/blog/prepare-for-no-deal-brexit-with-sort.jpg
+  https://res.cloudinary.com/wearesort/image/upload/v1546862425/blog/prepare-for-no-deal-brexit-with-sort.jpg
 date: 2019-01-03T09:45:55.830Z
 published: true
 author: Andy Tinker-Switzer
