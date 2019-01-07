@@ -12,17 +12,29 @@
   <!-- Search engines -->
   <title>{{ page.title }}</title>
   <meta name="description" content="{{ page.description }}">
+  {% if page.image %}
+  <meta name="image" content="{{ page.image | replace: site.tile_image_find, site.graph_image_transform}}">
+  {% else %}
   <meta name="image" content="{{ site.url }}/assets/files/images/brand/card.jpg">
+  {% endif %}
   <!-- Schema.org -->
   <meta itemprop="name" content="{{ page.title }}">
   <meta itemprop="description" content="{{ page.description }}">
+  {% if page.image %}
+  <meta itemprop="image" content="{{ page.image | replace: site.tile_image_find, site.graph_image_transform}}">
+  {% else %}
   <meta itemprop="image" content="{{ site.url }}/assets/files/images/brand/card.jpg">
+  {% endif %}
   <!-- Twitter -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{{ page.title }}">
   <meta name="twitter:description" content="{{ page.description }}">
   <meta name="twitter:site" content="@{{ site.twitter }}">
+  {% if page.image %}
+  <meta name="twitter:image:src" content="{{ page.image | replace: site.tile_image_find, site.graph_image_transform}}">
+  {% else %}
   <meta name="twitter:image:src" content="{{ site.url }}/assets/files/images/brand/card.jpg">
+  {% endif %}
   <!-- Open Graph -->
   <meta name="og:title" content="{{ page.title }}">
   <meta name="og:description" content="{{ page.description }}">
