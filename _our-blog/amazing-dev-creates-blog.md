@@ -6,3 +6,9 @@ published: true
 author: Martin Fraser
 ---
 My god, that dev really is amazing!
+
+{% include block-quote.html quote="God, I love that gut, the work he develops is truly top notch." title="It's amazing!" cite="Johan Gant" variant="solid" %}
+
+
+
+More text needs to go under here to allow space for the UI, which is annoying.
