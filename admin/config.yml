@@ -18,7 +18,7 @@ collections:
     folder: _our-blog
     create: true
     format: frontmatter
-    slug: "{{year}}-{{month}}-{{day}}-{{title}}"
+    slug: "{{title}}"
     fields:
       - label: Title
         name: title
